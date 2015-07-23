@@ -1,3 +1,7 @@
+1.0.3 / 2015-07-23
+=================
+  * Make sure that *this* module's `.eslintrc` is exported.
+
 1.0.2 / 2015-07-23
 =================
   * Fix omitted require
