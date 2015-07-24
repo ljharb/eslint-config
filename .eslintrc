@@ -95,8 +95,14 @@
 		"no-floating-decimal": [2],
 		"no-func-assign": [2],
 		"no-implied-eval": [2],
+		"no-implicit-coercion": [2, {
+			"boolean": false,
+			"number": true,
+			"string": true
+		}],
 		"no-inline-comments": [0],
 		"no-inner-declarations": [2, "functions"],
+		"no-invalid-this": [2],
 		"no-invalid-regexp": [2],
 		"no-irregular-whitespace": [2],
 		"no-iterator": [2],
@@ -165,6 +171,7 @@
 		"operator-linebreak": [2, "none"],
 		"padded-blocks": [0],
 		"prefer-const": [0],
+		"prefer-reflect": [0],
 		"prefer-spread": [0],
 		"quote-props": [0],
 		"radix": [0],
