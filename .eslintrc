@@ -135,7 +135,6 @@
 		"no-proto": [2],
 		"no-redeclare": [2],
 		"no-regex-spaces": [2],
-		"no-reserved-keys": [2],
 		"no-restricted-modules": [0],
 		"no-return-assign": [2, "always"],
 		"no-script-url": [2],
