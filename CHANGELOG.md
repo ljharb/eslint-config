@@ -1,3 +1,10 @@
+1.0.4 / 2015-08-01
+=================
+  * Update rules for `v1.0.0` release
+  * Actually run `eslint` on `npm test`
+  * Update configuration to be ESLint 1.0.0 compatible (#1)
+  * Add new rules in `v1.0.0-rc-2`
+
 1.0.3 / 2015-07-23
 =================
   * Make sure that *this* module's `.eslintrc` is exported.
