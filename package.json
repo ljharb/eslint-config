@@ -6,13 +6,7 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
-		"test": "npm run lint && node --harmony --es-staging test.js && npm run security",
-		"coverage": "covert test.js",
-		"coverage-quiet": "covert test.js --quiet",
-		"lint": "npm run jscs && npm run eslint",
-		"jscs": "jscs test.js *.js",
-		"eslint": "eslint test.js *.js",
-		"eccheck": "editorconfig-tools check *.js **/*.js > /dev/null",
+		"test": "eslint index.js && npm run security",
 		"security": "nsp package"
 	},
 	"repository": {
@@ -24,7 +18,10 @@
 		"eslint-config"
 	],
 	"dependencies": {},
-	"devDependencies": {},
+	"devDependencies": {
+		"eslint": "^1.0.0",
+		"nsp": "^1.0.3"
+	},
 	"engines": {
 		"node": ">= 0.4"
 	},
