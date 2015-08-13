@@ -18,7 +18,7 @@ See http://eslint.org/docs/developer-guide/shareable-configs
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/@ljharb/eslint-config
-[2]: http://vb.teelaun.ch/ljharb/@ljharb/eslint-config.svg
+[2]: http://versionbadg.es/ljharb/eslint-config.svg
 [5]: https://david-dm.org/ljharb/eslint-config.svg
 [6]: https://david-dm.org/ljharb/eslint-config
 [7]: https://david-dm.org/ljharb/eslint-config/dev-status.svg
