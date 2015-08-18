@@ -1,3 +1,9 @@
+1.0.5 / 2015-08-01
+=================
+  * Update rules for `v1.1.0` and `v1.2.0` release
+  * [Docs] Switch from vb.teelaun.ch to versionbadg.es for the npm version badge SVG
+  * [Tests] up to `io.js` `v3.0`
+
 1.0.4 / 2015-08-01
 =================
   * Update rules for `v1.0.0` release
