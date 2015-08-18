@@ -19,7 +19,7 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"eslint": "^1.1.0",
+		"eslint": "^1.2.0",
 		"nsp": "^1.0.3"
 	},
 	"engines": {
