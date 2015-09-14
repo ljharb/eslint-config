@@ -45,6 +45,7 @@
 		"id-length": [2, { "min": 1, "max": 20, "properties": "never" }],
 		"id-match": [0],
 		"init-declarations": [0, "always"],
+		"jsx-quotes": [2, "prefer-double"],
 		"key-spacing": [2, { "beforeColon": false, "afterColon": true }],
 		"linebreak-style": [2, "unix"],
 		"lines-around-comment": [2, {
@@ -140,6 +141,7 @@
 		"no-redeclare": [2],
 		"no-regex-spaces": [2],
 		"no-restricted-modules": [0],
+		"no-restricted-syntax": [2, "BreakStatement", "ContinueStatement", "DebuggerStatement", "ForInStatement", "LabeledStatement", "WithStatement"],
 		"no-return-assign": [2, "always"],
 		"no-script-url": [2],
 		"no-self-compare": [0],
@@ -186,6 +188,7 @@
 		"semi-spacing": [2, { "before": false, "after": true }],
 		"sort-vars": [0],
 		"space-after-keywords": [2, "always"],
+		"space-before-keywords": [2, "always"],
 		"space-before-function-paren": [2, { "anonymous": "always", "named": "never" }],
 		"space-before-blocks": [0, "always"],
 		"space-in-brackets": [0, "never", {
