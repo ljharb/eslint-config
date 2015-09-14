@@ -1,3 +1,8 @@
+1.2.0 / 2015-09-14
+=================
+  * Update rules for `v1.4.1`
+  * [Dev Deps] update `semver`
+
 1.1.0 / 2015-08-28
 =================
   * Update rules for `v1.3.0`
