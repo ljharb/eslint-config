@@ -1,3 +1,8 @@
+1.3.0 / 2015-10-02
+=================
+  * Update rules for `v1.6.0`
+  * [Dev Deps] update `eslint`
+
 1.2.0 / 2015-09-14
 =================
   * Update rules for `v1.4.1`
