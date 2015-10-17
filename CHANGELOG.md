@@ -1,3 +1,7 @@
+1.4.1 / 2015-10-17
+=================
+  * Make `no-magic-numbers` only a warning
+
 1.4.0 / 2015-10-17
 =================
   * Update rules for `v1.7.1`
