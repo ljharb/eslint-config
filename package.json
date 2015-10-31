@@ -7,7 +7,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "eslint index.js && npm run security",
-		"security": "nsp package"
+		"security": "nsp check"
 	},
 	"repository": {
 		"type": "git",
@@ -19,8 +19,8 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"eslint": "^1.7.1",
-		"nsp": "^1.1.0",
+		"eslint": "^1.8.0",
+		"nsp": "^2.0.0",
 		"semver": "^5.0.3",
 		"replace": "^0.3.0"
 	},
