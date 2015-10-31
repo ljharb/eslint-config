@@ -1,3 +1,8 @@
+1.5.0 / 2015-10-31
+=================
+  * [Dev Deps] update `nsp`, `eslint`
+  * Add `no-arrow-condition`, `arrow-body-style` "as-needed", "maxEOF" option to `no-multiple-empty-lines`, enable `no-plusplus` with "allowForLoopAfterthoughts" option, add defaults to `no-shadow`
+
 1.4.1 / 2015-10-17
 =================
   * Make `no-magic-numbers` only a warning
