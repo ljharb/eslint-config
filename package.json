@@ -19,8 +19,8 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"eslint": "^1.8.0",
-		"nsp": "^2.0.0",
+		"eslint": "^1.9.0",
+		"nsp": "^2.0.2",
 		"semver": "^5.0.3",
 		"replace": "^0.3.0"
 	},
