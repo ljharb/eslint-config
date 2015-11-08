@@ -1,3 +1,8 @@
+1.6.0 / 2015-11-08
+=================
+  * [Dev Deps] update `nsp`, `eslint`
+  * Add `no-case-declarations`, enable `radix` rule
+
 1.5.0 / 2015-10-31
 =================
   * [Dev Deps] update `nsp`, `eslint`
