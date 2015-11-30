@@ -6,7 +6,8 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
-		"test": "eslint index.js && npm run security",
+		"test": "npm run tests-only && npm run security",
+		"tests-only": "eslint index.js",
 		"security": "nsp check"
 	},
 	"repository": {
