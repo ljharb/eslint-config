@@ -1,3 +1,10 @@
+1.6.1 / 2015-12-27
+=================
+  * [Fix] allow “throws” to be in bracket notation
+  * [Dev Deps] update `eslint`, `semver`, `nsp`
+  * [Tests] up to `node` `v5.3`
+  * [Tests] fix npm upgrades for older nodes
+
 1.6.0 / 2015-11-08
 =================
   * [Dev Deps] update `nsp`, `eslint`
