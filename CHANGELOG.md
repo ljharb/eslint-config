@@ -1,3 +1,7 @@
+2.0.0 / 2016-02-13
+=================
+  * [Dev Deps] update `eslint` to v2
+
 1.6.1 / 2015-12-27
 =================
   * [Fix] allow “throws” to be in bracket notation
