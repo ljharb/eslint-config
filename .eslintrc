@@ -1,6 +1,13 @@
 {
 	"root": true,
 
+	"globals": {
+		"Symbol": false,
+		"Map": false,
+		"Set": false,
+		"Reflect": false
+	},
+
 	"env": {
 		"es6": false,
 		"browser": false,
