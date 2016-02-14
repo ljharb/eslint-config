@@ -1,3 +1,7 @@
+2.1.0 / 2016-02-13
+=================
+  * [New] add polyfillable/shimmable ES6 globals
+
 2.0.0 / 2016-02-13
 =================
   * [Dev Deps] update `eslint` to v2
