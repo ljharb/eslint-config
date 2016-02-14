@@ -1,3 +1,7 @@
+2.1.1 / 2016-02-14
+=================
+  * Don’t warn on `spaced-comment` for docblocks
+
 2.1.0 / 2016-02-13
 =================
   * [New] add polyfillable/shimmable ES6 globals
