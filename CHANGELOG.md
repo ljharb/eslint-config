@@ -1,3 +1,10 @@
+2.2.0 / 2016-03-26
+=================
+  * [New] enable `max-statements-per-line`
+  * [New] enable `no-duplicate-imports`
+  * [New] enable `no-useless-escape`
+  * [Dev Deps] update `eslint`
+
 2.1.1 / 2016-02-14
 =================
   * Don’t warn on `spaced-comment` for docblocks
