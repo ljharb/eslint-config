@@ -22,11 +22,14 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"eslint": "^2.7.0",
+		"eslint": "^2.8.0",
 		"eslint-find-rules": "^1.2.0",
 		"nsp": "^2.3.0",
 		"replace": "^0.3.0",
 		"semver": "^5.1.0"
+	},
+	"peerDependencies": {
+		"eslint": "^2.8.0"
 	},
 	"engines": {
 		"node": ">= 0.4"
