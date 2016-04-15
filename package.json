@@ -6,6 +6,7 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
+		"pretest": "eslint-find-rules --unused",
 		"test": "npm run --silent tests-only",
 		"posttest": "npm run --silent security",
 		"tests-only": "eslint index.js",
@@ -22,9 +23,10 @@
 	"dependencies": {},
 	"devDependencies": {
 		"eslint": "^2.7.0",
+		"eslint-find-rules": "^1.2.0",
 		"nsp": "^2.3.0",
-		"semver": "^5.1.0",
-		"replace": "^0.3.0"
+		"replace": "^0.3.0",
+		"semver": "^5.1.0"
 	},
 	"engines": {
 		"node": ">= 0.4"
@@ -33,4 +35,3 @@
 		"access": "public"
 	}
 }
-
