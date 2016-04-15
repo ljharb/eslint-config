@@ -1,3 +1,11 @@
+3.0.0 / 2016-04-15
+=================
+  * [Breaking] add `dot-location`, `indent`, `no-empty-function`, + disabled `no-var`, `require-jsdoc` rules
+  * [Dev Deps / Peer Deps] update `eslint`, `nsp`, add `eslint` to peer deps
+  * [Tests] ensure that no eslint rules are missing
+  * [Tests] up to `node` `v5.10`, `v4.4`
+  * Alphabetize rules
+
 2.2.0 / 2016-03-26
 =================
   * [New] enable `max-statements-per-line`
