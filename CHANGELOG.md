@@ -1,3 +1,7 @@
+3.0.1 / 2016-04-16
+=================
+  * [Fix] Loosen `no-extra-parens` rule
+
 3.0.0 / 2016-04-15
 =================
   * [Breaking] add `dot-location`, `indent`, `no-empty-function`, + disabled `no-var`, `require-jsdoc` rules
