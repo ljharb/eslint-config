@@ -23,7 +23,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"eslint": "^2.8.0",
-		"eslint-find-rules": "^1.2.0",
+		"eslint-find-rules": "^1.3.0",
 		"nsp": "^2.3.0",
 		"replace": "^0.3.0",
 		"semver": "^5.1.0"
