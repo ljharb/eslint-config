@@ -1,3 +1,8 @@
+4.0.0 / 2016-05-02
+=================
+  * [Breaking] update rules from eslint v2.9.0
+  * [Dev Deps] update `eslint`, `eslint-find-rules`, `nsp`
+
 3.0.1 / 2016-04-16
 =================
   * [Fix] Loosen `no-extra-parens` rule
