@@ -128,7 +128,11 @@
 		"no-extra-bind": [2],
 		"no-extra-boolean-cast": [2],
 		"no-extra-label": [2],
-		"no-extra-parens": [2, "all", { "nestedBinaryExpressions": false }],
+		"no-extra-parens": [2, "all", {
+			"conditionalAssign": false,
+			"nestedBinaryExpressions": false,
+			"returnAssign": false
+		}],
 		"no-extra-semi": [2],
 		"no-fallthrough": [2],
 		"no-floating-decimal": [2],
@@ -220,6 +224,9 @@
 		"no-whitespace-before-property": [2],
 		"no-with": [2],
 		"object-curly-spacing": [2, "always"],
+		"object-property-newline": [0, {
+			"allowMultiplePropertiesPerLine": true
+		}],
 		"object-shorthand": [2, "never"],
 		"one-var": [0],
 		"one-var-declaration-per-line": [2, "initializations"],
@@ -230,7 +237,10 @@
 			"allowNamedFunctions": true,
 			"allowUnboundThis": true
 		}],
-		"prefer-const": [0],
+		"prefer-const": [0, {
+			"destructuring": "any",
+			"ignoreReadBeforeAssign": true
+		}],
 		"prefer-reflect": [0],
 		"prefer-rest-params": [0],
 		"prefer-spread": [0],
