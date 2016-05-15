@@ -1,3 +1,9 @@
+4.0.1 / 2016-05-15
+=================
+  * [patch] update `eslint` to v2.10
+  * [Dev Deps] update `eslint-find-rules`, `nsp`
+  * [Tests] up to `node` `v6.1`
+
 4.0.0 / 2016-05-02
 =================
   * [Breaking] update rules from eslint v2.9.0
