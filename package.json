@@ -22,7 +22,7 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"eslint": "^2.10.2",
+		"eslint": "^2.11.0",
 		"eslint-find-rules": "^1.9.2",
 		"nsp": "^2.4.0",
 		"replace": "^0.3.0",
