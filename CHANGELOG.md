@@ -1,3 +1,8 @@
+5.0.0 / 2016-05-28
+=================
+  * [breaking] enable `no-prototype-builtins`, `no-useless-rename`, `unicode-bom`
+  * [Dev Deps] update `eslint`
+
 4.0.1 / 2016-05-15
 =================
   * [patch] update `eslint` to v2.10
