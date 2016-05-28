@@ -180,6 +180,7 @@
 		"no-process-env": [0],
 		"no-process-exit": [2],
 		"no-proto": [2],
+		"no-prototype-builtins": [2],
 		"no-redeclare": [2],
 		"no-regex-spaces": [2],
 		"no-restricted-globals": [0],
@@ -218,6 +219,11 @@
 		"no-useless-concat": [2],
 		"no-useless-constructor": [2],
 		"no-useless-escape": [2],
+		"no-useless-rename": [2, {
+			"ignoreDestructuring": false,
+			"ignoreImport": false,
+			"ignoreExport": false
+		}],
 		"no-var": [0],
 		"no-void": [0],
 		"no-warning-comments": [0, { "terms": ["todo", "fixme", "xxx"], "location": "start" }],
@@ -271,6 +277,7 @@
 		"spaced-line-comment": [0, "always"],
 		"strict": [2, "global"],
 		"template-curly-spacing": [2, "never"],
+		"unicode-bom": [2, "never"],
 		"use-isnan": [2],
 		"valid-jsdoc": [0],
 		"valid-typeof": [2],
