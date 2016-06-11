@@ -161,6 +161,16 @@
 		"no-lonely-if": [2],
 		"no-loop-func": [2],
 		"no-magic-numbers": [1, { "ignore": [], "enforceConst": false, "detectObjects": true }],
+		"no-mixed-operators": [2, {
+			"groups": [
+				["+", "-", "*", "/", "%", "**"],
+				["&", "|", "^", "~", "<<", ">>", ">>>"],
+				["==", "!=", "===", "!==", ">", ">=", "<", "<="],
+				["&&", "||"],
+				["in", "instanceof"]
+			],
+			"allowSamePrecedence": true
+		}],
 		"no-mixed-requires": [0, false],
 		"no-mixed-spaces-and-tabs": [2, false],
 		"no-multi-spaces": [2],
