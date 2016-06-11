@@ -275,6 +275,7 @@
 		"radix": [2],
 		"require-jsdoc": [0],
 		"require-yield": [2],
+		"rest-spread-spacing": [2, "never"],
 		"semi": [2],
 		"semi-spacing": [2, { "before": false, "after": true }],
 		"sort-imports": [0],
