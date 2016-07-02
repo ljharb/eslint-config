@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
-		"prepublish": "in-install || (npm test && eslint-find-rules --unused)",
+		"prepublish": "safe-publish-latest && in-install || (npm test && eslint-find-rules --unused)",
 		"test": "npm run --silent tests-only",
 		"posttest": "npm run --silent security",
 		"tests-only": "eslint index.js",
@@ -27,7 +27,8 @@
 		"nsp": "^2.5.0",
 		"replace": "^0.3.0",
 		"semver": "^5.2.0",
-		"in-publish": "^2.0.0"
+		"in-publish": "^2.0.0",
+		"safe-publish-latest": "^1.0.0"
 	},
 	"peerDependencies": {
 		"eslint": "^3.0.0"
