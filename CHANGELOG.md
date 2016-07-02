@@ -1,3 +1,14 @@
+6.0.0 / 2016-07-02
+=================
+  * [Breaking] [Deps] update `eslint` to v3
+  * [Breaking] enable `rest-spread-spacing`
+  * [Breaking] enable `object-curly-spacing` rule
+  * [Breaking] enable `no-mixed-operators` rule
+  * [Breaking] enable `max-lines` rule
+  * [Tests] Only run `eslint-find-rules` on `prepublish`
+  * [Dev Deps] add `safe-publish-latest` prepublish check
+  * [Dev Deps] update `eslint`, `eslint-find-rules`, `nsp`, `semver`
+
 5.0.0 / 2016-05-28
 =================
   * [breaking] enable `no-prototype-builtins`, `no-useless-rename`, `unicode-bom`
