@@ -24,7 +24,7 @@
 	"devDependencies": {
 		"eslint": "^3.0.1",
 		"eslint-find-rules": "^1.11.0",
-		"nsp": "^2.5.0",
+		"nsp": "^2.6.0",
 		"replace": "^0.3.0",
 		"semver": "^5.2.0",
 		"in-publish": "^2.0.0",
