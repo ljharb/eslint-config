@@ -69,7 +69,11 @@
 		}],
 		"init-declarations": [0, "always"],
 		"jsx-quotes": [2, "prefer-double"],
-		"key-spacing": [2, { "beforeColon": false, "afterColon": true }],
+		"key-spacing": [2, {
+			"beforeColon": false,
+			"afterColon": true,
+			"mode": "strict"
+		}],
 		"keyword-spacing": [2, {
 			"before": true,
 			"after": true,
@@ -98,6 +102,7 @@
 		"max-params": [2, 2],
 		"max-statements": [2, 10],
 		"max-statements-per-line": [2, { "max": 1 }],
+		"multiline-ternary": 0,
 		"new-parens": [2],
 		"new-cap": [2],
 		"newline-after-var": [0],
