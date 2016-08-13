@@ -1,3 +1,10 @@
+7.0.0 / 2016-08-12
+=================
+  * [Breaking] [Deps] update `eslint` to `v3.3`
+  * [Dev Deps] update `eslint-find-rules`, `safe-publish-latest`, `nsp`, `semver`
+  * [Tests] on `node` `v6.3`, `v5.12`
+  * [Tests] stop testing on node < 4
+
 6.0.0 / 2016-07-02
 =================
   * [Breaking] [Deps] update `eslint` to v3
