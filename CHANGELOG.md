@@ -1,3 +1,7 @@
+8.0.0 / 2016-08-27
+=================
+  * [Breaking] [Deps] update `eslint` to `v3.4`
+
 7.0.0 / 2016-08-12
 =================
   * [Breaking] [Deps] update `eslint` to `v3.3`
