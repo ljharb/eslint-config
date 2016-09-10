@@ -86,12 +86,21 @@
 			}
 		}],
 		"linebreak-style": [2, "unix"],
+		"line-comment-position": [0, {
+			"position": "beside",
+			"ignorePattern": "",
+			"applyDefaultPatterns": true
+		}],
 		"lines-around-comment": [2, {
 			"beforeBlockComment": false,
 			"afterBlockComment": false,
 			"beforeLineComment": false,
 			"allowBlockStart": true,
 			"allowBlockEnd": true
+		}],
+		"lines-around-directive": [2, {
+			"before": "always",
+			"after": "always"
 		}],
 		"max-depth": [2, 4],
 		"max-len": [0, 80, 4],
@@ -213,6 +222,11 @@
 		"no-restricted-globals": [0],
 		"no-restricted-imports": [0],
 		"no-restricted-modules": [0],
+		"no-restricted-properties": [0, {
+			"object": "Symbol",
+			"property": "for",
+			"message": "Symbol.for is unshimmable"
+		}],
 		"no-restricted-syntax": [2, "BreakStatement", "ContinueStatement", "DebuggerStatement", "ForInStatement", "LabeledStatement", "WithStatement"],
 		"no-return-assign": [2, "always"],
 		"no-script-url": [2],
@@ -281,6 +295,7 @@
 			"destructuring": "any",
 			"ignoreReadBeforeAssign": true
 		}],
+		"prefer-numeric-literals": [0],
 		"prefer-reflect": [0],
 		"prefer-rest-params": [0],
 		"prefer-spread": [0],
