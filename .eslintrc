@@ -31,14 +31,14 @@
 		}],
 		"array-callback-return": [2],
 		"arrow-body-style": [2, "as-needed"],
-		"arrow-parens": [2],
+		"arrow-parens": [2, "as-needed", { "requireForBlockBody": false }],
 		"arrow-spacing": [2, { "before": true, "after": true }],
 		"block-scoped-var": [0],
 		"block-spacing": [2, "always"],
 		"brace-style": [2, "1tbs", { "allowSingleLine": true }],
 		"callback-return": [2, ["callback"]],
 		"camelcase": [2],
-		"class-methods-use-this": [2],
+		"class-methods-use-this": [2, { "exceptMethods": [] }],
 		"comma-dangle": [2, "never"],
 		"comma-spacing": [2, { "before": false, "after": true }],
 		"comma-style": [2, "last"],
@@ -51,10 +51,11 @@
 		"default-case": [2, { "commentPattern": "(?:)" }],
 		"dot-location": [2, "property"],
 		"dot-notation": [2, { "allowKeywords": true, "allowPattern": "throws" }],
-		"eol-last": [2],
+		"eol-last": [2, "always"],
 		"eqeqeq": [2],
 		"func-call-spacing": [2, "never"],
 		"func-names": [0],
+		"func-name-matching": [2, "always", { "includeCommonJSModuleExports": false }],
 		"func-style": [2, "expression"],
 		"generator-star-spacing": [2, { "before": false, "after": true }],
 		"global-require": [2],
@@ -67,7 +68,15 @@
 		"indent": [2, "tab", {
 			"SwitchCase": 1,
 			"VariableDeclarator": 1,
-			"outerIIFEBody": 1
+			"outerIIFEBody": 1,
+			"FunctionDeclaration": {
+				"parameters": 1,
+				"body": 1
+			},
+			"FunctionExpression": {
+				"parameters": 1,
+				"body": 1
+			}
 		}],
 		"init-declarations": [0, "always"],
 		"jsx-quotes": [2, "prefer-double"],
@@ -103,7 +112,13 @@
 			"after": "always"
 		}],
 		"max-depth": [2, 4],
-		"max-len": [0, 80, 4],
+		"max-len": [2, 120, 4, {
+			"ignoreUrls": true,
+			"ignoreComments": false,
+			"ignoreRegExpLiterals": true,
+			"ignoreStrings": true,
+			"ignoreTemplateLiterals": true,
+		}],
 		"max-lines": [2, {
 			"max": 300,
 			"skipBlankLines": true,
@@ -222,10 +237,20 @@
 		"no-restricted-globals": [0],
 		"no-restricted-imports": [0],
 		"no-restricted-modules": [0],
-		"no-restricted-properties": [0, {
+		"no-restricted-properties": [2, {
 			"object": "Symbol",
 			"property": "for",
 			"message": "Symbol.for is unshimmable"
+		}, {
+			"object": "arguments",
+			"property": "callee",
+			"message": "arguments.callee is deprecated"
+		}, {
+			"property": "__defineGetter__",
+			"message": "Please use Object.defineProperty instead."
+		}, {
+			"property": "__defineSetter__",
+			"message": "Please use Object.defineProperty instead."
 		}],
 		"no-restricted-syntax": [2, "BreakStatement", "ContinueStatement", "DebuggerStatement", "ForInStatement", "LabeledStatement", "WithStatement"],
 		"no-return-assign": [2, "always"],
@@ -268,6 +293,7 @@
 			"ignoreImport": false,
 			"ignoreExport": false
 		}],
+		"no-useless-return": [2],
 		"no-var": [0],
 		"no-void": [0],
 		"no-warning-comments": [0, { "terms": ["todo", "fixme", "xxx"], "location": "start" }],
@@ -334,7 +360,7 @@
 		"valid-jsdoc": [0],
 		"valid-typeof": [2],
 		"vars-on-top": [0],
-		"wrap-iife": [2],
+		"wrap-iife": [2, "outside", { "functionPrototypeMethods": true }],
 		"wrap-regex": [2],
 		"yield-star-spacing": [2, { "before": false, "after": true }],
 		"yoda": [2, "never", { "exceptRange": true, "onlyEquality": false }]
