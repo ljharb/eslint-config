@@ -1,3 +1,7 @@
+9.0.1 / 2016-11-27
+=================
+  * [Fix] `func-name-matching` should be set to “never”
+
 9.0.0 / 2016-11-27
 =================
   * [Deps] [Breaking] update `eslint` to `v3.11`
