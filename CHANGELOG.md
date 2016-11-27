@@ -1,3 +1,11 @@
+9.0.0 / 2016-11-27
+=================
+  * [Deps] [Breaking] update `eslint` to `v3.11`
+  * [Dev Deps] update `eslint-find-rules`, `nsp`, `safe-publish-latest`
+  * [Deps] ensure `safe-publish-latest` does not need to be a runtime dep
+  * [Tests] up to `node` `v7.2` ,`v6.9`, `v4.6`; improve test matrix
+  * [Tests] Add `npm run find-unused`
+
 8.0.0 / 2016-08-27
 =================
   * [Breaking] [Deps] update `eslint` to `v3.4`
