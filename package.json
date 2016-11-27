@@ -6,7 +6,8 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
-		"prepublish": "safe-publish-latest && in-install || (npm test && eslint-find-rules --unused)",
+		"find-unused": "eslint-find-rules --unused",
+		"prepublish": "safe-publish-latest && in-install || (npm test && npm run find-unused)",
 		"test": "npm run --silent tests-only",
 		"posttest": "npm run --silent security",
 		"tests-only": "eslint index.js",
