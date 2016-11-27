@@ -117,7 +117,7 @@
 			"ignoreComments": false,
 			"ignoreRegExpLiterals": true,
 			"ignoreStrings": true,
-			"ignoreTemplateLiterals": true,
+			"ignoreTemplateLiterals": true
 		}],
 		"max-lines": [2, {
 			"max": 300,
