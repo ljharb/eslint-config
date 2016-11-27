@@ -7,7 +7,7 @@
 	"main": "index.js",
 	"scripts": {
 		"find-unused": "eslint-find-rules --unused",
-		"prepublish": "safe-publish-latest && in-install || (npm test && npm run find-unused)",
+		"prepublish": "! type safe-publish-latest >/dev/null 2>&1 || safe-publish-latest && in-install || (npm test && npm run find-unused)",
 		"test": "npm run --silent tests-only",
 		"posttest": "npm run --silent security",
 		"tests-only": "eslint index.js",
