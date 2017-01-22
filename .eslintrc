@@ -137,6 +137,7 @@
 		"newline-per-chained-call": [2, { "ignoreChainWithDepth": 6 }],
 		"no-alert": [2],
 		"no-array-constructor": [2],
+		"no-await-in-loop": [2],
 		"no-confusing-arrow": [2],
 		"no-bitwise": [0],
 		"no-caller": [2],
@@ -209,6 +210,7 @@
 		}],
 		"no-mixed-requires": [0, false],
 		"no-mixed-spaces-and-tabs": [2, false],
+		"no-multi-assign": [2],
 		"no-multi-spaces": [2],
 		"no-multi-str": [2],
 		"no-multiple-empty-lines": [2, { "max": 1, "maxEOF": 1 }],
@@ -323,7 +325,14 @@
 			"destructuring": "any",
 			"ignoreReadBeforeAssign": true
 		}],
+		"prefer-destructuring": [0, {
+			"array": true,
+			"object": true
+		}, {
+			"enforceForRenamedProperties": false
+		}],
 		"prefer-numeric-literals": [0],
+		"prefer-promise-reject-errors": [2, { "allowEmptyReject": true }],
 		"prefer-reflect": [0],
 		"prefer-rest-params": [0],
 		"prefer-spread": [0],
