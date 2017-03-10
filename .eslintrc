@@ -115,7 +115,7 @@
 		"max-depth": [2, 4],
 		"max-len": [2, 120, 4, {
 			"ignoreUrls": true,
-			"ignoreComments": false,
+			"ignoreComments": true,
 			"ignoreRegExpLiterals": true,
 			"ignoreStrings": true,
 			"ignoreTemplateLiterals": true
@@ -138,6 +138,7 @@
 		"no-alert": [2],
 		"no-array-constructor": [2],
 		"no-await-in-loop": [2],
+		"no-compare-neg-zero": [2],
 		"no-confusing-arrow": [2],
 		"no-bitwise": [0],
 		"no-caller": [2],
@@ -303,6 +304,7 @@
 		"no-warning-comments": [0, { "terms": ["todo", "fixme", "xxx"], "location": "start" }],
 		"no-whitespace-before-property": [2],
 		"no-with": [2],
+		"nonblock-statement-body-position": [2, "beside"],
 		"object-curly-newline": [2, {
 			"ObjectExpression": { "multiline": true },
 			"ObjectPattern": { "multiline": true }
