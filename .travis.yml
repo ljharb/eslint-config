@@ -24,6 +24,8 @@ matrix:
   fast_finish: true
   include:
     - node_js: "node"
+      env: PRETEST=true
+    - node_js: "node"
       env: POSTTEST=true
     - node_js: "7.9"
       env: TEST=true ALLOW_FAILURE=true
