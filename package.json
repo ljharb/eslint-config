@@ -8,7 +8,7 @@
 	"scripts": {
 		"find-unused": "eslint-find-rules --unused",
 		"prepublish": "! type safe-publish-latest >/dev/null 2>&1 || safe-publish-latest && in-install || (npm test && npm run find-unused)",
-        "pretest": "editorconfig-tools check *",
+		"pretest": "editorconfig-tools check *",
 		"test": "npm run --silent tests-only",
 		"posttest": "npm run --silent security",
 		"tests-only": "eslint index.js",
@@ -25,8 +25,8 @@
 	"dependencies": {},
 	"devDependencies": {
 		"editorconfig-tools": "^0.1.1",
-		"eslint": "^3.17.1",
-		"eslint-find-rules": "^2.1.0",
+		"eslint": "^4.1.1",
+		"eslint-find-rules": "^3.1.1",
 		"in-publish": "^2.0.0",
 		"nsp": "^2.6.3",
 		"replace": "^0.3.0",
@@ -34,7 +34,7 @@
 		"semver": "^5.3.0"
 	},
 	"peerDependencies": {
-		"eslint": "^3.17.1"
+		"eslint": "^4.1.1"
 	},
 	"engines": {
 		"node": ">= 4"
