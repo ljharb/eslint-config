@@ -53,7 +53,7 @@
 		"curly": [2, "all"],
 		"default-case": [2, { "commentPattern": "(?:)" }],
 		"dot-location": [2, "property"],
-		"dot-notation": [2, { "allowKeywords": true, "allowPattern": "throws" }],
+		"dot-notation": [2, { "allowKeywords": false, "allowPattern": "throws" }],
 		"eol-last": [2, "always"],
 		"eqeqeq": [2],
 		"for-direction": [2],
