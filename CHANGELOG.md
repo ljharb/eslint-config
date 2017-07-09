@@ -1,3 +1,25 @@
+12.1.0 / 2017-07-09
+=================
+  * [Deps] update `eslint`; enable `getter-return`
+  * [Fix] `dot-notation`: `allowKeywords` should be `false` (#21)
+
+12.0.0 / 2017-06-28
+=================
+  * [Breaking] update `eslint` to v4
+  * [Deps] update `eslint`, `nsp`; enable `no-compare-neg-zero`, `nonblock-body-statement-position`, loosen `max-len`
+  * [Dev Deps] update `eslint-find-rules`
+  * [Tests] add editorconfig
+  * [Tests] up to `node` `v8.1`, `v7.10`, `v6.11`, `v4.8`; improve test matrix
+  * Only apps should have lockfiles.
+
+11.0.0 / 2017-02-04
+=================
+  * [breaking] enable `template-tag-spacing`, update `eslint`
+
+10.0.0 / 2017-01-21
+=================
+  * [breaking] [deps] update `eslint`; enable `no-await-in-loop`, `no-multi-assign`, `prefer-promise-reject-errors`
+
 9.0.1 / 2016-11-27
 =================
   * [Fix] `func-name-matching` should be set to “never”
