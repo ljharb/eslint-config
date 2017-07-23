@@ -1,3 +1,7 @@
+12.2.0 / 2017-07-23
+=================
+  * [Deps] update `eslint`; tighten `no-underscore-dangle`
+
 12.1.0 / 2017-07-09
 =================
   * [Deps] update `eslint`; enable `getter-return`
