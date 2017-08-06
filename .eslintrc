@@ -81,7 +81,14 @@
 			"FunctionExpression": {
 				"parameters": 1,
 				"body": 1
-			}
+			},
+			"CallExpression": {
+				"arguments": 1
+			},
+			"ArrayExpression": 1,
+			"ObjectExpression": 1,
+			"ImportDeclaration": 1,
+			"flatTernaryExpressions": false
 		}],
 		"init-declarations": [0, "always"],
 		"jsx-quotes": [2, "prefer-double"],
