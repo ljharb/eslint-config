@@ -1,3 +1,8 @@
+12.2.1 / 2017-08-06
+=================
+  * [Deps] update `eslint`
+  * [Dev Deps] update `nsp`, `semver`
+
 12.2.0 / 2017-07-23
 =================
   * [Deps] update `eslint`; tighten `no-underscore-dangle`
