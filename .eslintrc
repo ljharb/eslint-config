@@ -61,7 +61,14 @@
 		"func-names": [0],
 		"func-name-matching": [2, "never", { "includeCommonJSModuleExports": false }],
 		"func-style": [2, "expression"],
-		"generator-star-spacing": [2, { "before": false, "after": true }],
+		"function-paren-newline": [2, "multiline"],
+		"generator-star-spacing": [2, {
+			"before": false,
+			"after": true,
+			"anonymous": { "before": false, "after": true },
+			"method": { "before": false, "after": true },
+			"named": { "before": false, "after": true }
+		}],
 		"getter-return": [2, { "allowImplicit": true }],
 		"global-require": [2],
 		"global-strict": [0, "never"],
@@ -88,7 +95,8 @@
 			"ArrayExpression": 1,
 			"ObjectExpression": 1,
 			"ImportDeclaration": 1,
-			"flatTernaryExpressions": false
+			"flatTernaryExpressions": false,
+			"ignoredNodes": ["JSXElement *"]
 		}],
 		"init-declarations": [0, "always"],
 		"jsx-quotes": [2, "prefer-double"],
