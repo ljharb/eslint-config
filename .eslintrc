@@ -31,7 +31,7 @@
 			"arraysInArrays": false
 		}],
 		"array-callback-return": [2],
-		"array-element-newline": [2, { "multiline": true, "minItems": 3 }],
+		"array-element-newline": [2, "consistent"],
 		"arrow-body-style": [2, "as-needed"],
 		"arrow-parens": [2, "as-needed", { "requireForBlockBody": false }],
 		"arrow-spacing": [2, { "before": true, "after": true }],
@@ -59,7 +59,10 @@
 		"for-direction": [2],
 		"func-call-spacing": [2, "never"],
 		"func-names": [0],
-		"func-name-matching": [2, "never", { "includeCommonJSModuleExports": false }],
+		"func-name-matching": [2, "never", {
+			"includeCommonJSModuleExports": false,
+			"considerPropertyDescriptor": true
+		}],
 		"func-style": [2, "expression"],
 		"function-paren-newline": [2, "multiline"],
 		"generator-star-spacing": [2, {
@@ -77,6 +80,7 @@
 		"id-blacklist": [0],
 		"id-length": [2, { "min": 1, "max": 20, "properties": "never" }],
 		"id-match": [0],
+		"implicit-arrow-linebreak": [2, "beside"],
 		"indent": [2, "tab", {
 			"SwitchCase": 1,
 			"VariableDeclarator": 1,
@@ -131,6 +135,10 @@
 			"before": "always",
 			"after": "always"
 		}],
+		"lines-between-class-members": [2, "always", {
+			"exceptAfterSingleLine": false
+		}],
+		"max-classes-per-file": [0, 1],
 		"max-depth": [2, 4],
 		"max-len": [2, 120, 4, {
 			"ignoreUrls": true,
@@ -138,6 +146,12 @@
 			"ignoreRegExpLiterals": true,
 			"ignoreStrings": true,
 			"ignoreTemplateLiterals": true
+		}],
+		"max-lines-per-function": [2, {
+			"max": 50,
+			"skipBlankLines": true,
+			"skipComments": true,
+			"IIFEs": true
 		}],
 		"max-lines": [2, {
 			"max": 300,
@@ -148,6 +162,7 @@
 		"max-params": [2, 2],
 		"max-statements": [2, 10],
 		"max-statements-per-line": [2, { "max": 1 }],
+		"multiline-comment-style": [2, "starred-block"],
 		"multiline-ternary": [0, "always-multiline"],
 		"new-parens": [2],
 		"new-cap": [2],
@@ -282,7 +297,7 @@
 		"no-return-assign": [2, "always"],
 		"no-return-await": [2],
 		"no-script-url": [2],
-		"no-self-assign": [2],
+		"no-self-assign": [2, { "props": true }],
 		"no-self-compare": [0],
 		"no-sequences": [2],
 		"no-shadow": [2, { "builtinGlobals": false, "hoist": "functions", "allow": [] }],
@@ -375,6 +390,7 @@
 			"enforceForRenamedProperties": false
 		}],
 		"prefer-numeric-literals": [0],
+		"prefer-object-spread": [0],
 		"prefer-promise-reject-errors": [2, { "allowEmptyReject": true }],
 		"prefer-reflect": [0],
 		"prefer-rest-params": [0],
