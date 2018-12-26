@@ -1,3 +1,10 @@
+13.1.0 / 2018-12-26
+=================
+  * [Minor] update config and require eslint v5.11
+  * [Dev Deps] update `eslint`, `replace`, `safe-publish-latest`, `semver`
+  * [Tests] use `npm audit` instead of `nsp`
+  * [Tests] up to `node` `v11.6`, `v10.15`, `v8.15`, `v6.16`
+
 13.0.0 / 2018-07-23
 =================
   * [Breaking] update eslint to v5
