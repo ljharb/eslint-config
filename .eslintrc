@@ -39,7 +39,11 @@
 		"block-spacing": [2, "always"],
 		"brace-style": [2, "1tbs", { "allowSingleLine": true }],
 		"callback-return": [2, ["callback"]],
-		"camelcase": [2],
+		"camelcase": [2, {
+			"properties": "always",
+			"ignoreDestructuring": false,
+			"allow": []
+		}],
 		"capitalized-comments": [0],
 		"class-methods-use-this": [2, { "exceptMethods": [] }],
 		"comma-dangle": [2, "never"],
@@ -58,7 +62,9 @@
 		"eqeqeq": [2],
 		"for-direction": [2],
 		"func-call-spacing": [2, "never"],
-		"func-names": [0],
+		"func-names": [2, "always", {
+			"generators": "always"
+		}],
 		"func-name-matching": [2, "never", {
 			"includeCommonJSModuleExports": false,
 			"considerPropertyDescriptor": true
@@ -171,6 +177,7 @@
 		"newline-per-chained-call": [2, { "ignoreChainWithDepth": 6 }],
 		"no-alert": [2],
 		"no-array-constructor": [2],
+		"no-async-promise-executor": [2],
 		"no-await-in-loop": [2],
 		"no-compare-neg-zero": [2],
 		"no-confusing-arrow": [2],
@@ -236,6 +243,7 @@
 		"no-lonely-if": [2],
 		"no-loop-func": [2],
 		"no-magic-numbers": [1, { "ignore": [], "enforceConst": false, "detectObjects": true }],
+		"no-misleading-character-class": [2],
 		"no-mixed-operators": [2, {
 			"groups": [
 				["+", "-", "*", "/", "%", "**"],
@@ -338,6 +346,7 @@
 		"no-unused-vars": [2, { "vars": "all", "args": "after-used" }],
 		"no-use-before-define": [2],
 		"no-useless-call": [2],
+		"no-useless-catch": [2],
 		"no-useless-computed-key": [2],
 		"no-useless-concat": [2],
 		"no-useless-constructor": [2],
@@ -399,8 +408,10 @@
 		"quote-props": [2, "as-needed", { "keywords": true }],
 		"quotes": [2, "single", "avoid-escape"],
 		"radix": [2],
+		"require-atomic-updates": [2],
 		"require-await": [0],
 		"require-jsdoc": [0],
+		"require-unicode-regexp": [0],
 		"require-yield": [2],
 		"rest-spread-spacing": [2, "never"],
 		"semi": [2],
@@ -409,7 +420,7 @@
 		"sort-imports": [0],
 		"sort-keys": [2, "asc", { "caseSensitive": false, "natural": true }],
 		"sort-vars": [0],
-		"space-before-blocks": [2, { "functions": "always", "keywords": "always" }],
+		"space-before-blocks": [2, { "functions": "always", "keywords": "always", "classes": "always" }],
 		"space-before-function-paren": [2, { "anonymous": "always", "named": "never", "asyncArrow": "always" }],
 		"space-in-brackets": [0, "never", {
 			"singleValue": true,
