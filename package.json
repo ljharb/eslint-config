@@ -10,9 +10,11 @@
 		"prepublish": "! type safe-publish-latest >/dev/null 2>&1 || safe-publish-latest && in-install || (npm test && npm run find-unused)",
 		"pretest": "editorconfig-tools check *",
 		"test": "npm run --silent tests-only",
-		"posttest": "npm run --silent security",
+		"posttest": "npm run audit",
 		"tests-only": "eslint index.js",
-		"security": "nsp check"
+		"preaudit": "npm install --package-lock --package-lock-only",
+		"audit": "npm audit",
+		"postaudit": "rm package-lock.json"
 	},
 	"repository": {
 		"type": "git",
@@ -28,7 +30,6 @@
 		"eslint": "^5.2.0",
 		"eslint-find-rules": "^3.3.1",
 		"in-publish": "^2.0.0",
-		"nsp": "^3.2.1",
 		"replace": "^1.0.0",
 		"safe-publish-latest": "^1.1.1",
 		"semver": "^5.5.0",
