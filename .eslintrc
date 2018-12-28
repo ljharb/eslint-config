@@ -62,7 +62,7 @@
 		"eqeqeq": [2],
 		"for-direction": [2],
 		"func-call-spacing": [2, "never"],
-		"func-names": [2, "always", {
+		"func-names": [0, "always", {
 			"generators": "always"
 		}],
 		"func-name-matching": [2, "never", {
