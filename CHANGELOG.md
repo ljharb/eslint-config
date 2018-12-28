@@ -1,3 +1,8 @@
+13.1.1 / 2018-12-28
+=================
+  * [patch] disable `func-names`; too noisy
+  * [Deps] update `eslint`
+
 13.1.0 / 2018-12-26
 =================
   * [Minor] update config and require eslint v5.11
