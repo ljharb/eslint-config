@@ -1,3 +1,7 @@
+14.0.1 / 2019-08-10
+=================
+  * [Patch] disable `symbol-description` in tests
+
 14.0.0 / 2019-08-10
 =================
   * [Breaking] upgrade to eslint v6
