@@ -1,6 +1,6 @@
 {
 	"name": "@ljharb/eslint-config",
-	"version": "14.0.1",
+	"version": "14.0.2",
 	"author": "Jordan Harband",
 	"description": "My shareable eslint config",
 	"license": "MIT",

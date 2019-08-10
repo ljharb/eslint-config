@@ -1,6 +1,10 @@
+14.0.2 / 2019-08-10
+=================
+  * [patch] disable `max-nested-callbacks` in tests
+
 14.0.1 / 2019-08-10
 =================
-  * [Patch] disable `symbol-description` in tests
+  * [patch] disable `symbol-description` in tests
 
 14.0.0 / 2019-08-10
 =================
