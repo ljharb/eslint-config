@@ -1,3 +1,11 @@
+14.0.0 / 2019-08-10
+=================
+  * [Breaking] upgrade to eslint v6
+  * [Patch] add disabled `prefer-named-capture-group` rule
+  * [Dev Deps] update `tape`, `semver`, `replace`, `eslint`
+  * [Tests] use `eclint` over `editorconfig-tools` (#28)
+  * [Tests] use `npx aud` instead of `nsp` or `npm audit` with hoops
+
 13.1.1 / 2018-12-28
 =================
   * [patch] disable `func-names`; too noisy
