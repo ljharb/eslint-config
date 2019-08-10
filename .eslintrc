@@ -2,6 +2,7 @@
 	"root": true,
 
 	"globals": {
+        "BigInt": false,
 		"Symbol": false,
 		"Map": false,
 		"Set": false,
@@ -171,7 +172,7 @@
 		"multiline-comment-style": [2, "starred-block"],
 		"multiline-ternary": [0, "always-multiline"],
 		"new-parens": [2],
-		"new-cap": [2],
+		"new-cap": [2, { "capIsNewExceptions": ["Symbol", "BigInt"] }],
 		"newline-after-var": [0],
 		"newline-before-return": [0],
 		"newline-per-chained-call": [2, { "ignoreChainWithDepth": 6 }],
@@ -450,5 +451,21 @@
 		"wrap-regex": [2],
 		"yield-star-spacing": [2, { "before": false, "after": true }],
 		"yoda": [2, "never", { "exceptRange": true, "onlyEquality": false }]
-	}
+	},
+
+	"overrides": [
+		{
+			"files": "test/**",
+			"rules": {
+				"array-bracket-newline": [0],
+				"max-lines": [0],
+				"max-statements": [0],
+				"max-statements-per-line": [0],
+				"no-console": [0],
+				"no-magic-numbers": [0],
+				"object-curly-newline": [0],
+				"sort-keys": [0]
+			}
+		}
+	]
 }
