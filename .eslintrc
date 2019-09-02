@@ -18,6 +18,8 @@
 		"jasmine": false
 	},
 
+	"reportUnusedDisableDirectives": true,
+
 	"parserOptions": {
 		"ecmaVersion": 3,
 		"sourceType": "script"
@@ -62,6 +64,7 @@
 		"eol-last": [2, "always"],
 		"eqeqeq": [2],
 		"for-direction": [2],
+		"function-call-argument-newline": [2, "consistent"],
 		"func-call-spacing": [2, "never"],
 		"func-names": [0, "always", {
 			"generators": "always"
