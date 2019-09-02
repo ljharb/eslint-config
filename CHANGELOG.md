@@ -1,3 +1,9 @@
+14.1.0 / 2019-09-02
+=================
+  * [Deps] update `eslint` to v6.3
+  * [Dev Deps] update `replace`, `safe-publish-latest`
+  * [Tests] up to `node` `v12.9`, `v11.15`, `v10.16`, `v8.16`; drop nodes below 8, per eslint
+
 14.0.2 / 2019-08-10
 =================
   * [patch] disable `max-nested-callbacks` in tests
