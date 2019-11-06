@@ -1,3 +1,8 @@
+15.0.0 / 2019-11-06
+=================
+  * [Breaking] update `eslint` to `v6.6`
+  * [meta] add `funding` field
+
 14.1.0 / 2019-09-02
 =================
   * [Deps] update `eslint` to v6.3
