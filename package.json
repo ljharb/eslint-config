@@ -11,7 +11,7 @@
 		"pretest": "eclint check *",
 		"test": "npm run --silent tests-only",
 		"posttest": "npx aud",
-		"tests-only": "eslint index.js"
+		"tests-only": "eslint index.js && node ."
 	},
 	"repository": {
 		"type": "git",
