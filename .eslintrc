@@ -26,7 +26,11 @@
 	},
 
 	"rules": {
-		"accessor-pairs": [2, { "getWithoutSet": false, "setWithoutGet": true }],
+		"accessor-pairs": [2, {
+			"getWithoutSet": false,
+			"setWithoutGet": true,
+			"enforceForClassMembers": true
+		}],
 		"array-bracket-newline": [2, { "multiline": true, "minItems": 3 }],
 		"array-bracket-spacing": [2, "never", {
 			"singleValue": false,
@@ -59,6 +63,7 @@
 		"constructor-super": [2],
 		"curly": [2, "all"],
 		"default-case": [2, { "commentPattern": "(?:)" }],
+		"default-param-last": [2],
 		"dot-location": [2, "property"],
 		"dot-notation": [2, { "allowKeywords": false, "allowPattern": "throws" }],
 		"eol-last": [2, "always"],
@@ -110,7 +115,24 @@
 			"ObjectExpression": 1,
 			"ImportDeclaration": 1,
 			"flatTernaryExpressions": false,
-			"ignoredNodes": ["JSXElement *"]
+			"ignoredNodes": [
+				"JSXElement",
+				"JSXElement > *",
+				"JSXAttribute",
+				"JSXIdentifier",
+				"JSXNamespacedName",
+				"JSXMemberExpression",
+				"JSXSpreadAttribute",
+				"JSXExpressionContainer",
+				"JSXOpeningElement",
+				"JSXClosingElement",
+				"JSXText",
+				"JSXEmptyExpression",
+				"JSXSpreadChild",
+				"JSXFragment",
+				"JSXOpeningFragment",
+				"JSXClosingFragment"
+			]
 		}],
 		"init-declarations": [0, "always"],
 		"jsx-quotes": [2, "prefer-double"],
@@ -222,7 +244,9 @@
 			"nestedBinaryExpressions": false,
 			"returnAssign": false,
 			"ignoreJSX": "all",
-			"enforceForArrowConditionals": false
+			"enforceForArrowConditionals": false,
+			"enforceForSequenceExpressions": true,
+			"enforceForNewInMemberExpressions": false
 		}],
 		"no-extra-semi": [2],
 		"no-fallthrough": [2],
@@ -235,6 +259,7 @@
 			"string": true
 		}],
 		"no-implicit-globals": [2],
+		"no-import-assign": [2],
 		"no-inline-comments": [0],
 		"no-inner-declarations": [2, "functions"],
 		"no-invalid-regexp": [2],
@@ -278,7 +303,11 @@
 		"no-obj-calls": [2],
 		"no-octal": [2],
 		"no-octal-escape": [2],
-		"no-param-reassign": [2],
+		"no-param-reassign": [2, {
+			"props": true,
+			"ignorePropertyModificationsFor": [],
+			"ignorePropertyModificationsForRegex": []
+		}],
 		"no-path-concat": [0],
 		"no-plusplus": [2, { "allowForLoopAfterthoughts": true }],
 		"no-process-env": [0],
@@ -286,6 +315,7 @@
 		"no-proto": [2],
 		"no-prototype-builtins": [2],
 		"no-redeclare": [2],
+		"prefer-regex-literals": [2],
 		"no-regex-spaces": [2],
 		"no-restricted-globals": [0],
 		"no-restricted-imports": [0],
@@ -340,7 +370,7 @@
 		"no-unneeded-ternary": [2],
 		"no-unreachable": [2],
 		"no-unsafe-finally": [2],
-		"no-unsafe-negation": [2],
+		"no-unsafe-negation": [2, { "enforceForOrderingRelations": true }],
 		"no-unused-expressions": [2, {
 			"allowShortCircuit": false,
 			"allowTernary": false,
@@ -446,7 +476,7 @@
 		"template-curly-spacing": [2, "never"],
 		"template-tag-spacing": [2, "never"],
 		"unicode-bom": [2, "never"],
-		"use-isnan": [2],
+		"use-isnan": [2, { "enforceForSwitchCase": true }],
 		"valid-jsdoc": [0],
 		"valid-typeof": [2],
 		"vars-on-top": [0],
