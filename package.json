@@ -3,7 +3,7 @@
 	"version": "15.0.0",
 	"author": "Jordan Harband",
 	"funding": {
-		"url": "https://github.com/sponsors/ljharb/"
+		"url": "https://github.com/sponsors/ljharb"
 	},
 	"description": "My shareable eslint config",
 	"license": "MIT",
