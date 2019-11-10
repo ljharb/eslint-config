@@ -1,3 +1,7 @@
+15.0.1 / 2019-11-09
+=================
+  * [meta] normalize funding field URL
+
 15.0.0 / 2019-11-06
 =================
   * [Breaking] update `eslint` to `v6.6`
