@@ -1,3 +1,9 @@
+15.0.2 / 2019-11-17
+=================
+  * [patch] disable `prefer-regex-literals` in tests
+  * [Dev Deps] update `safe-publish-latest`
+  * [actions] add automatic rebasing / merge commit blocking
+
 15.0.1 / 2019-11-09
 =================
   * [meta] normalize funding field URL
