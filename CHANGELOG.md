@@ -1,3 +1,9 @@
+15.1.0 / 2019-12-19
+=================
+  * [minor] update `eslint` and add new rules
+  * [patch] loosen `max-params` for tests
+  * [meta] remove unused Makefile and associated utilities
+
 15.0.2 / 2019-11-17
 =================
   * [patch] disable `prefer-regex-literals` in tests
