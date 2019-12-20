@@ -30,9 +30,7 @@
 		"eslint": "^6.6.0",
 		"eslint-find-rules": "^3.4.0",
 		"in-publish": "^2.0.0",
-		"replace": "^1.1.1",
 		"safe-publish-latest": "^1.1.4",
-		"semver": "^6.3.0",
 		"tape": "^4.11.0"
 	},
 	"peerDependencies": {
