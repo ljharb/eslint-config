@@ -49,6 +49,7 @@
 		"camelcase": [2, {
 			"properties": "always",
 			"ignoreDestructuring": false,
+			"ignoreImports": false,
 			"allow": []
 		}],
 		"capitalized-comments": [0],
@@ -90,6 +91,7 @@
 		"getter-return": [2, { "allowImplicit": true }],
 		"global-require": [2],
 		"global-strict": [0, "never"],
+		"grouped-accessor-pairs": [2, "getBeforeSet"],
 		"guard-for-in": [0],
 		"handle-callback-err": [0],
 		"id-blacklist": [0],
@@ -217,6 +219,7 @@
 		"no-console": [2],
 		"no-const-assign": [2],
 		"no-constant-condition": [2],
+		"no-constructor-return": [2],
 		"no-continue": [2],
 		"no-control-regex": [2],
 		"no-debugger": [2],
@@ -224,6 +227,7 @@
 		"no-div-regex": [0],
 		"no-dupe-args": [2],
 		"no-dupe-class-members": [2],
+		"no-dupe-else-if": [2],
 		"no-dupe-keys": [2],
 		"no-duplicate-case": [2],
 		"no-duplicate-imports": [2],
@@ -341,6 +345,7 @@
 		"no-script-url": [2],
 		"no-self-assign": [2, { "props": true }],
 		"no-self-compare": [0],
+		"no-setter-return": [2],
 		"no-sequences": [2],
 		"no-shadow": [2, { "builtinGlobals": false, "hoist": "functions", "allow": [] }],
 		"no-shadow-restricted-names": [2],
@@ -363,6 +368,7 @@
 			"allow": [],
 			"allowAfterThis": false,
 			"allowAfterSuper": false,
+			"allowAfterThisConstructor": false,
 			"enforceInMethodNames": true
 		}],
 		"no-unexpected-multiline": [2],
@@ -381,7 +387,9 @@
 		"no-use-before-define": [2],
 		"no-useless-call": [2],
 		"no-useless-catch": [2],
-		"no-useless-computed-key": [2],
+		"no-useless-computed-key": [2, {
+			"enforceForClassMembers": true
+		}],
 		"no-useless-concat": [2],
 		"no-useless-constructor": [2],
 		"no-useless-escape": [2],
@@ -432,6 +440,7 @@
 		}, {
 			"enforceForRenamedProperties": false
 		}],
+		"prefer-exponentiation-operator": [0],
 		"prefer-named-capture-group": [0],
 		"prefer-numeric-literals": [0],
 		"prefer-object-spread": [0],
