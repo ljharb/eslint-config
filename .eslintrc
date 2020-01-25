@@ -230,7 +230,7 @@
 		"no-dupe-else-if": [2],
 		"no-dupe-keys": [2],
 		"no-duplicate-case": [2],
-		"no-duplicate-imports": [2],
+		"no-duplicate-imports": [2, { "includeExports": false }],
 		"no-else-return": [0],
 		"no-empty": [2, { "allowEmptyCatch": true }],
 		"no-empty-character-class": [2],
@@ -511,6 +511,20 @@
 				"prefer-regex-literals": [0],
 				"sort-keys": [0],
 				"symbol-description": [0]
+			}
+		},
+		{
+			"files": "**/*.mjs",
+			"parserOptions": {
+				"ecmaVersion": "2020",
+				"sourceType": "module"
+			},
+			"rules": {
+				"dot-notation": [2, { "allowKeywords": true }],
+				"// func-style": [0, "disabled pending https://github.com/eslint/eslint/issues/12829"],
+				"func-style": 1,
+				"// no-duplicate-imports": [0, "disabled pending https://github.com/eslint/eslint/issues/12758"],
+				"no-duplicate-imports": 1
 			}
 		}
 	]
