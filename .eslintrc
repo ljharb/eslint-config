@@ -57,7 +57,7 @@
 		"comma-dangle": [2, "never"],
 		"comma-spacing": [2, { "before": false, "after": true }],
 		"comma-style": [2, "last"],
-		"complexity": [2, 10],
+		"complexity": [2, 20],
 		"computed-property-spacing": [2, "never"],
 		"consistent-return": [2],
 		"consistent-this": [0, "that"],
@@ -193,8 +193,8 @@
 			"skipComments": true
 		}],
 		"max-nested-callbacks": [2, 2],
-		"max-params": [2, 2],
-		"max-statements": [2, 10],
+		"max-params": [2, 3],
+		"max-statements": [2, 30],
 		"max-statements-per-line": [2, { "max": 1 }],
 		"multiline-comment-style": [2, "starred-block"],
 		"multiline-ternary": [0, "always-multiline"],
@@ -501,7 +501,6 @@
 			"rules": {
 				"array-bracket-newline": [0],
 				"max-lines": [0],
-				"max-params": [2, 3],
 				"max-nested-callbacks": [0],
 				"max-statements": [0],
 				"max-statements-per-line": [0],
