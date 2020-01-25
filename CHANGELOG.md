@@ -1,3 +1,12 @@
+16.0.0 / 2020-01-25
+=================
+  * [Breaking] `arrow-parens`: switch to always requiring arg parens, for consistency
+  * [New] add `bin` overrides to allow node stuff
+  * [New] add native ESM rules for `.mjs` files
+  * [patch] loosen some rules
+  * [Deps] update `eslint`
+  * [Dev Deps] update `tape`
+
 15.1.0 / 2019-12-19
 =================
   * [minor] update `eslint` and add new rules
