@@ -28,10 +28,10 @@
 	"devDependencies": {
 		"eclint": "^2.8.1",
 		"eslint": "^6.8.0",
-		"eslint-find-rules": "^3.4.0",
+		"eslint-find-rules": "^3.5.0",
 		"in-publish": "^2.0.1",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.0.0-next.4"
+		"tape": "^5.0.0"
 	},
 	"peerDependencies": {
 		"eslint": "^6.8.0"
