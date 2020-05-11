@@ -1,3 +1,9 @@
+17.0.0 / 2020-05-10
+=================
+  * [Breaking] `eslint` v7
+  * [Dev Deps] update `eslint-find-rules`, `in-publish`, `tape`
+  * [Tests] use shared travis-ci configs
+
 16.0.0 / 2020-01-25
 =================
   * [Breaking] `arrow-parens`: switch to always requiring arg parens, for consistency
