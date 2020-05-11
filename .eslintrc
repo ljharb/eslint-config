@@ -64,6 +64,7 @@
 		"constructor-super": [2],
 		"curly": [2, "all"],
 		"default-case": [2, { "commentPattern": "(?:)" }],
+		"default-case-last": [2],
 		"default-param-last": [2],
 		"dot-location": [2, "property"],
 		"dot-notation": [2, { "allowKeywords": false, "allowPattern": "throws" }],
@@ -90,7 +91,6 @@
 		}],
 		"getter-return": [2, { "allowImplicit": true }],
 		"global-require": [2],
-		"global-strict": [0, "never"],
 		"grouped-accessor-pairs": [2, "getBeforeSet"],
 		"guard-for-in": [0],
 		"handle-callback-err": [0],
@@ -322,6 +322,9 @@
 		"prefer-regex-literals": [2],
 		"no-regex-spaces": [2],
 		"no-restricted-globals": [0],
+		"no-restricted-exports": [2, {
+			"restrictedNamedExports": ["then"]
+		}],
 		"no-restricted-imports": [0],
 		"no-restricted-modules": [0],
 		"no-restricted-properties": [2, {
@@ -385,6 +388,7 @@
 		"no-unused-labels": [2],
 		"no-unused-vars": [2, { "vars": "all", "args": "after-used" }],
 		"no-use-before-define": [2],
+		"no-useless-backreference": [2],
 		"no-useless-call": [2],
 		"no-useless-catch": [2],
 		"no-useless-computed-key": [2, {
@@ -523,7 +527,7 @@
 		{
 			"files": "**/*.mjs",
 			"parserOptions": {
-				"ecmaVersion": "2020",
+				"ecmaVersion": 2020,
 				"sourceType": "module"
 			},
 			"rules": {
