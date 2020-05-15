@@ -13,7 +13,7 @@
 		"prepublish": "! type safe-publish-latest >/dev/null 2>&1 || safe-publish-latest && in-install || (npm test && npm run find-unused)",
 		"pretest": "eclint check *",
 		"test": "npm run --silent tests-only",
-		"posttest": "npx aud",
+		"posttest": "npx aud --production",
 		"tests-only": "eslint index.js && node ."
 	},
 	"repository": {
