@@ -1,3 +1,9 @@
+17.1.0 / 2020-05-15
+=================
+  * [New] add `esm` and `tests` entrypoints, for easier composition
+  * [meta] only run `aud` on prod deps
+  * [Dev Deps] add `aud`
+
 17.0.0 / 2020-05-10
 =================
   * [Breaking] `eslint` v7
