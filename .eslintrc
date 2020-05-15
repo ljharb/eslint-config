@@ -502,19 +502,7 @@
 	"overrides": [
 		{
 			"files": "test/**",
-			"rules": {
-				"array-bracket-newline": [0],
-				"max-lines": [0],
-				"max-nested-callbacks": [0],
-				"max-statements": [0],
-				"max-statements-per-line": [0],
-				"no-console": [0],
-				"no-magic-numbers": [0],
-				"object-curly-newline": [0],
-				"prefer-regex-literals": [0],
-				"sort-keys": [0],
-				"symbol-description": [0]
-			}
+			"extends": "./tests"
 		},
 		{
 			"files": "bin/**",
@@ -526,17 +514,7 @@
 		},
 		{
 			"files": "**/*.mjs",
-			"parserOptions": {
-				"ecmaVersion": 2020,
-				"sourceType": "module"
-			},
-			"rules": {
-				"dot-notation": [2, { "allowKeywords": true }],
-				"// func-style": [0, "disabled pending https://github.com/eslint/eslint/issues/12829"],
-				"func-style": 1,
-				"// no-duplicate-imports": [0, "disabled pending https://github.com/eslint/eslint/issues/12758"],
-				"no-duplicate-imports": 1
-			}
+			"extends": "./esm"
 		}
 	]
 }

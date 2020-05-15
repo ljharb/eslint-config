@@ -1,0 +1,15 @@
+{
+	"rules": {
+		"array-bracket-newline": [0],
+		"max-lines": [0],
+		"max-nested-callbacks": [0],
+		"max-statements": [0],
+		"max-statements-per-line": [0],
+		"no-console": [0],
+		"no-magic-numbers": [0],
+		"object-curly-newline": [0],
+		"prefer-regex-literals": [0],
+		"sort-keys": [0],
+		"symbol-description": [0]
+	}
+}
