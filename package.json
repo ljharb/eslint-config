@@ -26,6 +26,7 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
+		"aud": "^1.1.2",
 		"eclint": "^2.8.1",
 		"eslint": "^7.0.0",
 		"eslint-find-rules": "^3.5.0",
