@@ -8,7 +8,11 @@ import:
  - ljharb/travis-ci:node/posttest.yml
 matrix:
   include:
+    - node_js: "10.22"
+    - node_js: "10.21"
+      env: TEST=true ALLOW_FAILURE=true
     - node_js: "10.20"
+      env: TEST=true ALLOW_FAILURE=true
     - node_js: "10.19"
       env: TEST=true ALLOW_FAILURE=true
     - node_js: "10.18"
