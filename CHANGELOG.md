@@ -1,3 +1,9 @@
+17.2.0 / 2020-08-17
+=================
+  * [minor] update to `eslint` `v7.7.0`
+  * [Dev Deps] update `tape`
+  * [Tests] up to `node` `v10.22`
+
 17.1.0 / 2020-05-15
 =================
   * [New] add `esm` and `tests` entrypoints, for easier composition
