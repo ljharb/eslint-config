@@ -26,10 +26,10 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"aud": "^1.1.2",
+		"aud": "^1.1.3",
 		"eclint": "^2.8.1",
 		"eslint": "^7.7.0",
-		"eslint-find-rules": "^3.6.0",
+		"eslint-find-rules": "^3.6.1",
 		"in-publish": "^2.0.1",
 		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.1"
