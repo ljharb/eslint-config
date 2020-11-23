@@ -1,15 +1,14 @@
-name: Automatic Rebase
+name: Require “Allow Edits”
 
 on: [pull_request_target]
 
 jobs:
   _:
-    name: "Automatic Rebase"
+    name: "Require “Allow Edits”"
 
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - uses: ljharb/rebase@master
+    - uses: ljharb/require-allow-edits@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
