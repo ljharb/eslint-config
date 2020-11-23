@@ -1,3 +1,12 @@
+17.3.0 / 2020-11-23
+=================
+  * [minor] bump eslint to `v7.14.0`, enable `no-nonoctal-decimal-escape`
+  * [patch] ESM: modernize some rules
+  * [Dev Deps] update `aud`, `eslint-find-rules`
+  * [actions] update rebase action to use checkout v2
+  * [actions] add "Allow Edits" workflow
+  * [Tests] migrate tests to Github Actions
+
 17.2.0 / 2020-08-17
 =================
   * [minor] update to `eslint` `v7.7.0`
