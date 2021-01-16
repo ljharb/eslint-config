@@ -2,11 +2,14 @@
 	"root": true,
 
 	"globals": {
-        "BigInt": false,
-		"Symbol": false,
+		"Atomics": false,
+		"BigInt": false,
+		"FinalizationRegistry": false,
 		"Map": false,
+		"Reflect": false,
 		"Set": false,
-		"Reflect": false
+		"Symbol": false,
+		"WeakRef": false
 	},
 
 	"env": {
