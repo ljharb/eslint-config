@@ -1,3 +1,11 @@
+17.4.0 / 2021-01-16
+=================
+  * [minor] update `eslint` to v7.18.0, enable `no-unsafe-optional-chaining`
+  * [patch] add some new globals
+  * [meta] do not publish github action workflow files
+  * [meta] remove unneeded token
+  * [Dev Deps] update `tape`
+
 17.3.0 / 2020-11-23
 =================
   * [minor] bump eslint to `v7.14.0`, enable `no-nonoctal-decimal-escape`
