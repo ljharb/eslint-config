@@ -28,14 +28,14 @@
 	"devDependencies": {
 		"aud": "^1.1.3",
 		"eclint": "^2.8.1",
-		"eslint": "^7.14.0",
+		"eslint": "^7.18.0",
 		"eslint-find-rules": "^3.6.1",
 		"in-publish": "^2.0.1",
 		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.1"
 	},
 	"peerDependencies": {
-		"eslint": "^7.14.0"
+		"eslint": "^7.18.0"
 	},
 	"engines": {
 		"node": ">= 12 || ^10.12"
