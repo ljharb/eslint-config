@@ -1,3 +1,7 @@
+17.5.0 / 2021-01-24
+=================
+  * [New] add `node/latest` config
+
 17.4.0 / 2021-01-16
 =================
   * [minor] update `eslint` to v7.18.0, enable `no-unsafe-optional-chaining`
