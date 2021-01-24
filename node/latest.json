@@ -1,7 +1,6 @@
 {
 	"parserOptions": {
-		"ecmaVersion": 2020,
-		"sourceType": "module"
+		"ecmaVersion": 2020
 	},
 	"rules": {
 		"comma-dangle": [2, {
@@ -12,13 +11,13 @@
 			"functions": "always-multiline"
 		}],
 		"dot-notation": [2, { "allowKeywords": true }],
-		"// func-style": [0, "disabled pending https://github.com/eslint/eslint/issues/12829"],
-		"func-style": 1,
-		"// no-duplicate-imports": [0, "disabled pending https://github.com/eslint/eslint/issues/12758"],
-		"no-duplicate-imports": 1,
+		"no-console": 0,
+		"no-process-exit": 0,
+		"no-var": 2,
 		"object-shorthand": [2, "always", {
 			"avoidQuotes": true,
 			"avoidExplicitReturnArrows": true
-		}]
+		}],
+		"prefer-template": 2
 	}
 }
