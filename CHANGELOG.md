@@ -1,3 +1,8 @@
+17.5.1 / 2021-02-09
+=================
+  * [patch] update `eslint` to v7.19.0
+  * [Fix] `node/latest`: set up proper globals
+
 17.5.0 / 2021-01-24
 =================
   * [New] add `node/latest` config
