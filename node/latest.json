@@ -2,10 +2,11 @@
 	"env": {
 		"es6": true,
 		"es2017": true,
-		"es2020": true
+		"es2020": true,
+		"es2021": true
 	},
 	"parserOptions": {
-		"ecmaVersion": 2020
+		"ecmaVersion": 2021
 	},
 	"rules": {
 		"comma-dangle": [2, {
