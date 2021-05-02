@@ -264,7 +264,9 @@
 		"no-implicit-coercion": [2, {
 			"boolean": false,
 			"number": true,
-			"string": true
+			"string": true,
+			"disallowTemplateShorthand": false,
+			"allow": []
 		}],
 		"no-implicit-globals": [2],
 		"no-import-assign": [2],
@@ -294,7 +296,7 @@
 		}],
 		"no-mixed-requires": [0, false],
 		"no-mixed-spaces-and-tabs": [2, false],
-		"no-multi-assign": [2],
+		"no-multi-assign": [2, { "ignoreNonDeclaration": false }],
 		"no-multi-spaces": [2, { "ignoreEOLComments": false }],
 		"no-multi-str": [2],
 		"no-multiple-empty-lines": [2, { "max": 1, "maxEOF": 1 }],
@@ -356,7 +358,7 @@
 		"no-self-assign": [2, { "props": true }],
 		"no-self-compare": [0],
 		"no-setter-return": [2],
-		"no-sequences": [2],
+		"no-sequences": [2, { "allowInParentheses": false }],
 		"no-shadow": [2, { "builtinGlobals": false, "hoist": "functions", "allow": [] }],
 		"no-shadow-restricted-names": [2],
 		"no-spaced-func": [2],
@@ -392,7 +394,8 @@
 		"no-unused-expressions": [2, {
 			"allowShortCircuit": false,
 			"allowTernary": false,
-			"allowTaggedTemplates": true
+			"allowTaggedTemplates": true,
+			"enforceForJSX": true
 		}],
 		"no-unused-labels": [2],
 		"no-unused-vars": [2, { "vars": "all", "args": "after-used" }],
