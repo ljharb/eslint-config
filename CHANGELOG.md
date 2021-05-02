@@ -1,3 +1,11 @@
+17.6.0 / 2021-05-02
+=================
+  * [minor] `node/latest`: add es2021
+  * [Deps] update `eslint`
+  * [meta] use `prepublishOnly` script for npm 7+
+  * [actions] use `node/install` instead of `node/run`; use `codecov` action
+  * [Dev Deps] update `aud`, `tape`
+
 17.5.1 / 2021-02-09
 =================
   * [patch] update `eslint` to v7.19.0
