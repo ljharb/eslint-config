@@ -10,7 +10,8 @@
 	"main": "index.js",
 	"scripts": {
 		"find-unused": "eslint-find-rules --unused",
-		"prepublish": "! type safe-publish-latest >/dev/null 2>&1 || safe-publish-latest && in-install || (npm test && npm run find-unused)",
+		"prepublishOnly": "safe-publish-latest && npm test && npm run find-unused",
+		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"pretest": "eclint check *",
 		"test": "npm run --silent tests-only",
 		"posttest": "npx aud --production",
