@@ -1,4 +1,5 @@
 {
+	"extends": "../",
 	"env": {
 		"es6": true,
 		"es2017": true,
@@ -24,6 +25,14 @@
 			"avoidQuotes": true,
 			"avoidExplicitReturnArrows": true
 		}],
+		"prefer-arrow-callback": 2,
+		"prefer-const": 2,
+		"prefer-destructuring": 2,
+		"prefer-exponentiation-operator": 2,
+		"prefer-named-capture-group": 2,
+		"prefer-object-spread": 2,
+		"prefer-rest-params": 2,
+		"prefer-spread": 2,
 		"prefer-template": 2
 	}
 }
