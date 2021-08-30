@@ -1,3 +1,9 @@
+18.0.0 / 2021-08-30
+=================
+  * [Breaking] enable `no-div-regex`, `no-else-return`
+  * [Breaking] `node/latest`: inherit from base, enable lots of "prefer" rules
+  * [Deps] update `eslint`, `tape`
+
 17.6.0 / 2021-05-02
 =================
   * [minor] `node/latest`: add es2021
