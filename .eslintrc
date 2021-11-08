@@ -398,6 +398,7 @@
 			"enforceForJSX": true
 		}],
 		"no-unused-labels": [2],
+		"no-unused-private-class-members": [2],
 		"no-unused-vars": [2, { "vars": "all", "args": "after-used" }],
 		"no-use-before-define": [2],
 		"no-useless-backreference": [2],
