@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v19.0.0](https://github.com/ljharb/eslint-config/compare/v18.0.0...v19.0.0) - 2021-11-08
+
+### Commits
+
+- [meta] add `auto-changelog` [`10da95e`](https://github.com/ljharb/eslint-config/commit/10da95e045f5c2e36e6c3f51b4559bc4689e7842)
+- [Breaking] update to `eslint` 8 [`e5518a8`](https://github.com/ljharb/eslint-config/commit/e5518a888848e709eaa36d33e230b190ec23fb9a)
+- [actions] update codecov uploader [`533ce96`](https://github.com/ljharb/eslint-config/commit/533ce96ca6cc29644e23ef200151561fc9e540b6)
+- [Fix] `node/latest`: quote fewer properties [`622c2d1`](https://github.com/ljharb/eslint-config/commit/622c2d17b6977ee33cf1192aba4a5ef8d7e8d800)
+- [Dev Deps] update `safe-publish-latest` [`666329a`](https://github.com/ljharb/eslint-config/commit/666329a9712cee69bbd9588d65aec31834572821)
+
 <!-- auto-changelog-above -->
 
 18.0.0 / 2021-08-30
