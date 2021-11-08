@@ -15,7 +15,9 @@
 		"pretest": "eclint check *",
 		"test": "npm run --silent tests-only",
 		"posttest": "npx aud --production",
-		"tests-only": "eslint index.js && node ."
+		"tests-only": "eslint index.js && node .",
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"repository": {
 		"type": "git",
@@ -27,6 +29,7 @@
 	],
 	"devDependencies": {
 		"aud": "^1.1.5",
+		"auto-changelog": "^2.3.0",
 		"eclint": "^2.8.1",
 		"eslint": "^8.2.0",
 		"eslint-find-rules": "^4.0.0",
@@ -42,5 +45,14 @@
 	},
 	"publishConfig": {
 		"access": "public"
+	},
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
+		"unreleased": false,
+		"commitLimit": false,
+		"backfillLimit": false,
+		"hideCredit": true,
+		"startingVersion": "v19.0.0"
 	}
 }
