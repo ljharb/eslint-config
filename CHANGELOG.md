@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v19.0.1](https://github.com/ljharb/eslint-config/compare/v19.0.0...v19.0.1) - 2021-11-08
+
+### Commits
+
+- [meta] fix engines declaration, tests to match eslint [`0de82b6`](https://github.com/ljharb/eslint-config/commit/0de82b6ececb0f3cfbcc427444086a74b3b83df5)
+
 ## [v19.0.0](https://github.com/ljharb/eslint-config/compare/v18.0.0...v19.0.0) - 2021-11-08
 
 ### Commits
