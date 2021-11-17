@@ -1,0 +1,10 @@
+{
+	"extends": "./12",
+	"env": {
+		"es2020": true,
+		"es2021": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2021
+	}
+}

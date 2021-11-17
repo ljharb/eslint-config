@@ -1,0 +1,6 @@
+{
+	"extends": "./10",
+	"parserOptions": {
+		"ecmaVersion": 2019
+	}
+}

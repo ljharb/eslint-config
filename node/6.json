@@ -1,0 +1,10 @@
+{
+	"extends": "./4",
+	"parserOptions": {
+		"ecmaVersion": 2016
+	},
+	"rules": {
+		"prefer-destructuring": 2,
+		"prefer-spread": 2
+	}
+}

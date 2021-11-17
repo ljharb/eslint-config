@@ -1,0 +1,6 @@
+{
+	"extends": "./14",
+	"parserOptions": {
+		"ecmaVersion": 2022
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"extends": "./8",
+	"env": {
+		"es6": true,
+		"es2017": true,
+		"node": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2019
+	},
+	"rules": {
+		"prefer-named-capture-group": 2
+	}
+}
