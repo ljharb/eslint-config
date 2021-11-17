@@ -434,7 +434,14 @@
 		"one-var": [0],
 		"one-var-declaration-per-line": [2, "initializations"],
 		"operator-assignment": [0, "always"],
-		"operator-linebreak": [2, "none"],
+		"operator-linebreak": [2, "none", {
+				"overrides": {
+						"?": "before",
+						":": "before",
+						"&&": "before",
+						"||": "before"
+				}
+		}],
 		"padded-blocks": [0],
 		"padding-line-between-statements": [0],
 		"prefer-arrow-callback": [0, {
