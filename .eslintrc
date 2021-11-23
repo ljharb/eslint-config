@@ -484,7 +484,7 @@
 		"quote-props": [2, "as-needed", { "keywords": true }],
 		"quotes": [2, "single", "avoid-escape"],
 		"radix": [2],
-		"require-atomic-updates": [2],
+		"require-atomic-updates": [2, { "allowProperties": true }],
 		"require-await": [0],
 		"require-jsdoc": [0],
 		"require-unicode-regexp": [0],
