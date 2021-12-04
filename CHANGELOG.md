@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v19.1.0](https://github.com/ljharb/eslint-config/compare/v19.0.1...v19.1.0) - 2021-12-03
+
+### Commits
+
+- [New] add `node/4`, `node/6`, `node/8`, `node/10`, `node/12`, `node/14`, `node/16` configs [`434696a`](https://github.com/ljharb/eslint-config/commit/434696a63f27766f6043342df4aedf3af5b9d442)
+- [New] add more globals [`77555f4`](https://github.com/ljharb/eslint-config/commit/77555f462aaad10480c8b9afade0b0c623e334b0)
+- [patch] `operator-linebreak`: upstream "before" overrides from tons of my packages [`c2407eb`](https://github.com/ljharb/eslint-config/commit/c2407eb89ed30e8921f47bcaa70281a828151538)
+- [Deps] update `eslint` [`a82cfa5`](https://github.com/ljharb/eslint-config/commit/a82cfa59c1742fc19096ed10d019f42263e53c6b)
+- [patch] `no-invalid-regexp`: allow `u` and `y` as constructor flags [`41119d0`](https://github.com/ljharb/eslint-config/commit/41119d0677b0d06b3f7bab3a87487220fdc7389a)
+- [Dev Deps] update `tape` [`643f300`](https://github.com/ljharb/eslint-config/commit/643f3000fed636481c50eb451b4b0a5bf7596a3c)
+
 ## [v19.0.1](https://github.com/ljharb/eslint-config/compare/v19.0.0...v19.0.1) - 2021-11-08
 
 ### Commits
