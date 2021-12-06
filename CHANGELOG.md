@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v19.1.1](https://github.com/ljharb/eslint-config/compare/v19.1.0...v19.1.1) - 2021-12-05
+
+### Commits
+
+- [patch] tests: disable `no-buffer-constructor` [`b475f75`](https://github.com/ljharb/eslint-config/commit/b475f7506fff861733e5663a1e34444696383f83)
+
 ## [v19.1.0](https://github.com/ljharb/eslint-config/compare/v19.0.1...v19.1.0) - 2021-12-03
 
 ### Commits
