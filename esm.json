@@ -1,6 +1,7 @@
 {
 	"parserOptions": {
 		"ecmaVersion": 2020,
+		"allowReserved": false,
 		"sourceType": "module"
 	},
 	"rules": {

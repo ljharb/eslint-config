@@ -33,6 +33,7 @@
 
 	"parserOptions": {
 		"ecmaVersion": 3,
+		"allowReserved": true,
 		"sourceType": "script"
 	},
 

@@ -6,7 +6,8 @@
 		"node": true
 	},
 	"parserOptions": {
-		"ecmaVersion": 2017
+		"ecmaVersion": 2017,
+		"allowReserved": false
 	},
 	"rules": {
 		"comma-dangle": [2, {
