@@ -5,6 +5,7 @@
 		"max-nested-callbacks": [0],
 		"max-statements": [0],
 		"max-statements-per-line": [0],
+		"no-buffer-constructor": [0],
 		"no-console": [0],
 		"no-magic-numbers": [0],
 		"object-curly-newline": [0],
