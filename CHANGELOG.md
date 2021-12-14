@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v20.1.0](https://github.com/ljharb/eslint-config/compare/v20.0.0...v20.1.0) - 2021-12-13
+
+### Commits
+
+- [actions] reuse common workflows [`0396dc4`](https://github.com/ljharb/eslint-config/commit/0396dc462003c751fdd427b4991fa31f5a12dda7)
+- [minor] add `ignorePatterns` [`b8f3a45`](https://github.com/ljharb/eslint-config/commit/b8f3a45b0b43f81a136f445494fd0bd884444c0c)
+- [Deps] update `eslint` [`6d84b1a`](https://github.com/ljharb/eslint-config/commit/6d84b1a2e60f62c463c89758b2b0e95d3fb2ac63)
+
 ## [v20.0.0](https://github.com/ljharb/eslint-config/compare/v19.1.1...v20.0.0) - 2021-12-05
 
 ### Commits
