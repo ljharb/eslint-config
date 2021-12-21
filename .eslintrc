@@ -481,6 +481,7 @@
 		"prefer-exponentiation-operator": [0],
 		"prefer-named-capture-group": [0],
 		"prefer-numeric-literals": [0],
+		"prefer-object-has-own": [0],
 		"prefer-object-spread": [0],
 		"prefer-promise-reject-errors": [2, { "allowEmptyReject": true }],
 		"prefer-reflect": [0],
