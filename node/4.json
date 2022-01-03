@@ -1,25 +1,13 @@
 {
-	"extends": "../",
+	"extends": "./0.4",
 	"env": {
 		"es6": true,
-		"es2017": true,
-		"node": true
+		"es2017": true
 	},
 	"parserOptions": {
-		"ecmaVersion": 2015,
-		"allowReserved": false
+		"ecmaVersion": 2015
 	},
 	"rules": {
-		"comma-dangle": [2, {
-			"arrays": "always-multiline",
-			"objects": "always-multiline",
-			"imports": "always-multiline",
-			"exports": "always-multiline",
-			"functions": "never"
-		}],
-		"dot-notation": [2, { "allowKeywords": true }],
-		"no-console": 0,
-		"no-process-exit": 0,
 		"no-var": 2,
 		"object-shorthand": [2, "always", {
 			"avoidQuotes": true,
@@ -29,7 +17,6 @@
 		"prefer-const": 2,
 		"prefer-object-spread": 2,
 		"prefer-rest-params": 2,
-		"prefer-template": 2,
-		"quote-props": [2, "as-needed", { "keywords": false }]
+		"prefer-template": 2
 	}
 }

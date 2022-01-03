@@ -1,0 +1,23 @@
+{
+	"extends": "../",
+	"env": {
+		"node": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 5,
+		"allowReserved": false
+	},
+	"rules": {
+		"comma-dangle": [2, {
+			"arrays": "always-multiline",
+			"objects": "always-multiline",
+			"imports": "always-multiline",
+			"exports": "always-multiline",
+			"functions": "never"
+		}],
+		"dot-notation": [2, { "allowKeywords": true }],
+		"no-console": 0,
+		"no-process-exit": 0,
+		"quote-props": [2, "as-needed", { "keywords": false }]
+	}
+}
