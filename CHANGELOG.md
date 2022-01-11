@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v20.2.0](https://github.com/ljharb/eslint-config/compare/v20.1.0...v20.2.0) - 2022-01-11
+
+### Commits
+
+- [New] add `node/0.4` config [`e51f8b5`](https://github.com/ljharb/eslint-config/commit/e51f8b519b58e8efb9bed288690b621b0bbe6919)
+- [Deps] update `eslint` [`d0d2e19`](https://github.com/ljharb/eslint-config/commit/d0d2e191d1b5bc4158033778b8cf78008d633edd)
+- [Dev Deps] update `aud`, `eslint-find-rules` [`7829d6a`](https://github.com/ljharb/eslint-config/commit/7829d6a5b149983ce1fcdb188ff86036c9587e54)
+- [Deps] update `eslint` [`0014084`](https://github.com/ljharb/eslint-config/commit/00140843e8ce5408fd8f2244b3c4d2819fce5bef)
+- [Fix] `node/4`: set `ecmaVersion` to 2015 [`9ee53d8`](https://github.com/ljharb/eslint-config/commit/9ee53d83866c44615c5bb28d61806a2312af3ec7)
+- [Dev Deps] update `tape` [`44371fb`](https://github.com/ljharb/eslint-config/commit/44371fba006d5fe738b7745853070f13c6f55320)
+
 ## [v20.1.0](https://github.com/ljharb/eslint-config/compare/v20.0.0...v20.1.0) - 2021-12-13
 
 ### Commits
