@@ -12,7 +12,7 @@
 		"find-unused": "eslint-find-rules --unused",
 		"prepublishOnly": "safe-publish-latest && npm test && npm run find-unused",
 		"prepublish": "not-in-publish || npm run prepublishOnly",
-		"pretest": "eclint check *",
+		"pretest": "eclint check $(git ls-files | xargs find 2> /dev/null | grep -vE 'node_modules|\\.git')",
 		"test": "npm run --silent tests-only",
 		"posttest": "npx aud --production",
 		"tests-only": "eslint index.js && node .",
