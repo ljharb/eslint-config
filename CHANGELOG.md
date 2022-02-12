@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v20.2.1](https://github.com/ljharb/eslint-config/compare/v20.2.0...v20.2.1) - 2022-02-11
+
+### Commits
+
+- [Fix] pin `eslint` to &lt; `v8.9`, since it breaks ES3 strict mode parsing [`a6efbad`](https://github.com/ljharb/eslint-config/commit/a6efbad1c15af29f673d6292a1f0e84b46981e49)
+- [Deps] update `eslint` [`3bdaab5`](https://github.com/ljharb/eslint-config/commit/3bdaab56018fbbe3dab1ce2921c7989819712810)
+- [Dev Deps] update `auto-changelog`, `tape` [`72c6591`](https://github.com/ljharb/eslint-config/commit/72c6591ed6eefe6c0b3c90e920a493f243adc039)
+- [meta] improve `eclint` check [`81616c3`](https://github.com/ljharb/eslint-config/commit/81616c3fd8efd9fc901b5df2b713bcfe0339817b)
+
 ## [v20.2.0](https://github.com/ljharb/eslint-config/compare/v20.1.0...v20.2.0) - 2022-01-11
 
 ### Commits
