@@ -54,5 +54,8 @@
 		"backfillLimit": false,
 		"hideCredit": true,
 		"startingVersion": "v19.0.0"
+	},
+	"dependencies": {
+		"eslint-scope": "=7.1.0"
 	}
 }
