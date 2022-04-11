@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v21.0.0](https://github.com/ljharb/eslint-config/compare/v20.2.3...v21.0.0) - 2022-04-10
+
+### Commits
+
+- [Breaking] prevent `native` as an identifier [`1818e56`](https://github.com/ljharb/eslint-config/commit/1818e560a397528c4c4d79491c740f71b399ec30)
+- [Dev Deps] update `tape` [`d127e81`](https://github.com/ljharb/eslint-config/commit/d127e81f22ee4c43bb35a04f208ad693d9fcecca)
+
 ## [v20.2.3](https://github.com/ljharb/eslint-config/compare/v20.2.2...v20.2.3) - 2022-02-13
 
 ### Commits
