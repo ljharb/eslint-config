@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v21.0.1](https://github.com/ljharb/eslint-config/compare/v21.0.0...v21.0.1) - 2022-12-31
+
+### Commits
+
+- [Dev Deps] update `aud`, `tape` [`fe5f07f`](https://github.com/ljharb/eslint-config/commit/fe5f07fc64f8020b8e19f81c725bcfcde809f83b)
+- [Fix] add bigint typed array globals [`ad6351c`](https://github.com/ljharb/eslint-config/commit/ad6351cd6b3b4115c9c41d331e7842e82a14c633)
+
 ## [v21.0.0](https://github.com/ljharb/eslint-config/compare/v20.2.3...v21.0.0) - 2022-04-10
 
 ### Commits
