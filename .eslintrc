@@ -6,6 +6,8 @@
 		"ArrayBuffer": false,
 		"Atomics": false,
 		"BigInt": false,
+		"BigInt64Array": false,
+		"BigUint64Array": false,
 		"FinalizationRegistry": false,
 		"globalThis": false,
 		"Promise": false,
