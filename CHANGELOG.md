@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v21.1.0](https://github.com/ljharb/eslint-config/compare/v21.0.1...v21.1.0) - 2023-05-24
+
+### Commits
+
+- [meta] use `npmignore` to autogenerate an npmignore file [`8750f38`](https://github.com/ljharb/eslint-config/commit/8750f3853dda7271a5a5ab1aa60d3684ecda3e3e)
+- [New] add `node/18` and `node/20` entrypoints [`9e563e5`](https://github.com/ljharb/eslint-config/commit/9e563e502efdbbe4a914759739ebfc82fbaf3932)
+- [Dev Deps] update `tape` [`56f8a69`](https://github.com/ljharb/eslint-config/commit/56f8a69dca9f08273ad2142e7ba7903dbbb85ddc)
+
 ## [v21.0.1](https://github.com/ljharb/eslint-config/compare/v21.0.0...v21.0.1) - 2022-12-31
 
 ### Commits

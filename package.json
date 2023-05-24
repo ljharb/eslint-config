@@ -1,6 +1,6 @@
 {
 	"name": "@ljharb/eslint-config",
-	"version": "21.0.1",
+	"version": "21.1.0",
 	"author": "Jordan Harband",
 	"funding": {
 		"url": "https://github.com/sponsors/ljharb"
@@ -46,7 +46,9 @@
 		"node": "^12.22.0 || ^14.17.0 || >=16.0.0"
 	},
 	"publishConfig": {
-		"access": "public"
+		"ignore": [
+			".github/workflows"
+		]
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
@@ -59,10 +61,5 @@
 	},
 	"dependencies": {
 		"eslint-scope": "=7.1.0"
-	},
-	"publishConfig": {
-		"ignore": [
-			".github/workflows"
-		]
 	}
 }
