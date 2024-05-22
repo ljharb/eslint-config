@@ -1,8 +1,11 @@
 {
 	"rules": {
 		"array-bracket-newline": [0],
+		"class-methods-use-this": [0],
 		"max-lines": [0],
+		"max-lines-per-function": [0],
 		"max-nested-callbacks": [0],
+		"max-params": [0],
 		"max-statements": [0],
 		"max-statements-per-line": [0],
 		"no-buffer-constructor": [0],
