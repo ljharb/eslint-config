@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v21.1.1](https://github.com/ljharb/eslint-config/compare/v21.1.0...v21.1.1) - 2024-05-22
+
+### Commits
+
+- [Dev Deps] update `aud`, `npmignore`, `tape` [`87907f6`](https://github.com/ljharb/eslint-config/commit/87907f609be0096c9c9ffe88a83434a128239868)
+- [patch] turn off more rules in tests [`c06c27a`](https://github.com/ljharb/eslint-config/commit/c06c27a8a45329487e06f2538928b8b03bce0a54)
+
 ## [v21.1.0](https://github.com/ljharb/eslint-config/compare/v21.0.1...v21.1.0) - 2023-05-24
 
 ### Commits
