@@ -16,6 +16,7 @@
 		"Reflect": false,
 		"Set": false,
 		"SharedArrayBuffer": false,
+		"SuppressedError": false,
 		"Symbol": false,
 		"WeakMap": false,
 		"WeakRef": false,
