@@ -1,0 +1,6 @@
+{
+	"extends": "./20",
+	"globals": {
+		"Iterator": "readonly"
+	}
+}

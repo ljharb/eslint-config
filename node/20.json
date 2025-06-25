@@ -1,3 +1,6 @@
 {
-	"extends": "./18"
+	"extends": "./18",
+	"parserOptions": {
+		"ecmaVersion": 2024
+	}
 }

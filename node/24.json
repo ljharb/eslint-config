@@ -1,0 +1,11 @@
+{
+	"extends": "./22",
+	"globals": {
+		"AsyncDisposableStack": "readonly",
+		"DisposableStack": "readonly",
+		"SuppressedError": "readonly"
+	},
+	"parserOptions": {
+		"ecmaVersion": 2024
+	}
+}
