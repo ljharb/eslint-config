@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v21.2.0](https://github.com/ljharb/eslint-config/compare/v21.1.1...v21.2.0) - 2025-06-25
+
+### Commits
+
+- [New] add node 22, 24 [`3bcd76c`](https://github.com/ljharb/eslint-config/commit/3bcd76cc5058b5f04bb3e1e0f1ba9dd317307f57)
+- [Dev Deps] update `auto-changelog`, `eslint-find-rules`, `tape` [`300f2ee`](https://github.com/ljharb/eslint-config/commit/300f2ee5445d12319ae7ae18cefa6268451da763)
+- [Tests] replace `aud` with `npm audit` [`8fbe090`](https://github.com/ljharb/eslint-config/commit/8fbe090bc150fda64f153b987bbe439ddbd9781b)
+- [patch] add `SuppressedError` global [`e297584`](https://github.com/ljharb/eslint-config/commit/e297584deda4fa442e27635c9b4c3510c46a2138)
+
 ## [v21.1.1](https://github.com/ljharb/eslint-config/compare/v21.1.0...v21.1.1) - 2024-05-22
 
 ### Commits
