@@ -1,0 +1,16 @@
+name: 'Tests: eslint 8.8.0 pinned version'
+
+on: [pull_request, push]
+
+jobs:
+  eslint-pinned:
+    name: 'eslint 8.8.0 with eslint-scope 7.1.0'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ljharb/actions/node/install@main
+      - run: npm install --no-save eslint@8.8.0 eslint-scope@7.1.0 acorn@8.7.0
+      - run: npm ls eslint
+      - run: npm ls eslint-scope
+      - run: npm ls acorn
+      - run: npm run tests-only
