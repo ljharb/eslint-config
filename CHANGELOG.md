@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v21.3.0](https://github.com/ljharb/eslint-config/compare/v21.2.1...v21.3.0) - 2025-11-15
+
+### Commits
+
+- [Fix] add custom parser to enforce ES3 and strict mode violations [`c8276f1`](https://github.com/ljharb/eslint-config/commit/c8276f158e4226127a332c6f19de5a424eb9d56e)
+- [New] unpin eslint and remove eslint-scope [`d4e50c7`](https://github.com/ljharb/eslint-config/commit/d4e50c7b833af0da863cb545958eb504a52949db)
+
 ## [v21.2.1](https://github.com/ljharb/eslint-config/compare/v21.2.0...v21.2.1) - 2025-11-15
 
 ### Commits
