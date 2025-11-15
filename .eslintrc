@@ -39,6 +39,8 @@
 		".nyc_output/"
 	],
 
+	"parser": "./parser.js",
+
 	"parserOptions": {
 		"ecmaVersion": 3,
 		"allowReserved": true,

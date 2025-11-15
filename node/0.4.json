@@ -3,6 +3,7 @@
 	"env": {
 		"node": true
 	},
+	"parser": "espree",
 	"parserOptions": {
 		"ecmaVersion": 5,
 		"allowReserved": false
