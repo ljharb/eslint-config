@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v21.4.0](https://github.com/ljharb/eslint-config/compare/v21.3.0...v21.4.0) - 2025-11-17
+
+### Commits
+
+- [New] add eslint 9 support, `/flat` entry point [`6315696`](https://github.com/ljharb/eslint-config/commit/63156966cd406ad9e141c359818b504f2ab33d8e)
+- [meta] add `exports` [`e50780e`](https://github.com/ljharb/eslint-config/commit/e50780ea1b9ba55ed765db204e316c17e63f2db8)
+
 ## [v21.3.0](https://github.com/ljharb/eslint-config/compare/v21.2.1...v21.3.0) - 2025-11-15
 
 ### Commits
