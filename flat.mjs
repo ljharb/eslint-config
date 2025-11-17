@@ -1,0 +1,88 @@
+/* eslint
+	array-bracket-newline: "off",
+	no-magic-numbers: "off",
+	no-underscore-dangle: "off",
+	sort-keys: "off",
+*/
+
+import { FlatCompat } from '@eslint/eslintrc';
+import globals from 'globals';
+
+import path from 'path';
+import { fileURLToPath } from 'url';
+import parser from './parser.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const compat = new FlatCompat({
+	baseDirectory: __dirname,
+	resolvePluginsRelativeTo: __dirname,
+});
+
+// Get base config without overrides
+const baseConfigs = compat.config({
+	extends: './eslint-config.json',
+}).map(({ languageOptions, ...c }) => ({
+	...c,
+	languageOptions: {
+		...languageOptions,
+		globals: {
+			...globals.es5,
+			...globals.node,
+			...languageOptions?.globals,
+		},
+	},
+}));
+
+// Get override configs
+const testConfigs = compat.config({
+	extends: './tests',
+});
+
+const esmConfigs = compat.config({
+	extends: './esm',
+});
+
+const rules = {
+	'no-unused-expressions': ['error', {
+		allowShortCircuit: false,
+		allowTernary: false,
+		allowTaggedTemplates: true,
+		enforceForJSX: true,
+		ignoreDirectives: true,
+	}],
+};
+
+export default [
+	...baseConfigs,
+	{
+		files: ['test/**'],
+		...testConfigs[0],
+		rules: {
+			...testConfigs[0].rules,
+			...rules,
+		},
+	},
+	{
+		files: ['bin/**'],
+		rules: {
+			'no-console': 0,
+			'no-process-env': 0,
+			'no-process-exit': 2,
+		},
+	},
+	{
+		files: ['**/*.mjs'],
+		...esmConfigs[0],
+		rules: {
+			...esmConfigs[0].rules,
+			...rules,
+		},
+		languageOptions: {
+			...esmConfigs[0].languageOptions,
+			parser,
+		},
+	},
+	{ rules },
+];

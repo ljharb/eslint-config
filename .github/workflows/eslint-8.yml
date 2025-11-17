@@ -9,6 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ljharb/actions/node/install@main
-      - run: npm install --no-save eslint@8
+      - run: npm install --no-save eslint@8 eslint-find-rules@4
       - run: npm ls eslint
+      - run: cp eslint-config.json .eslintrc
       - run: npm run tests-only
+        env:
+          ESLINT_USE_FLAT_CONFIG: 'false'
