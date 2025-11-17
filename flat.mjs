@@ -45,6 +45,12 @@ const esmConfigs = compat.config({
 });
 
 const rules = {
+	'logical-assignment-operators': 'off', // TODO: set to "always" when node flat configs exist
+	'no-constant-binary-expression': 'error',
+	'no-empty-static-block': 'error',
+	'no-new-native-nonconstructor': 'error',
+	'no-object-constructor': 'error',
+	'no-unassigned-vars': 'error',
 	'no-unused-expressions': ['error', {
 		allowShortCircuit: false,
 		allowTernary: false,
@@ -52,6 +58,8 @@ const rules = {
 		enforceForJSX: true,
 		ignoreDirectives: true,
 	}],
+	'no-useless-assignment': 'error',
+	'preserve-caught-error': 'error',
 };
 
 export default [
