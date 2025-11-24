@@ -1,10 +1,3 @@
-/* eslint
-	array-bracket-newline: "off",
-	no-magic-numbers: "off",
-	no-underscore-dangle: "off",
-	sort-keys: "off",
-*/
-
 import { FlatCompat } from '@eslint/eslintrc';
 import globals from 'globals';
 
