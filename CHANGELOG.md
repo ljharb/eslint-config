@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v22.0.0](https://github.com/ljharb/eslint-config/compare/v21.4.0...v22.0.0) - 2025-11-24
+
+### Commits
+
+- [New] add `flat/node` entrypoints [`e6e4e56`](https://github.com/ljharb/eslint-config/commit/e6e4e56da5a69058897c4d1a7204f5a73dc42248)
+- [New] add TS types [`3039d13`](https://github.com/ljharb/eslint-config/commit/3039d135e63be444d6beaa14b908ff82e3351caa)
+- [Fix] fix custom parser to support import assertions properly [`3446bba`](https://github.com/ljharb/eslint-config/commit/3446bbab66e51cde505e31c18e9364b70aa85c27)
+- [New] `flat`: enable new eslint 9 rules [`1e3f042`](https://github.com/ljharb/eslint-config/commit/1e3f042f588bd89ab97f53be9f3f706e76289013)
+- [Breaking] hoist `engines` requirement to satisfy eslintrc package [`b21f452`](https://github.com/ljharb/eslint-config/commit/b21f452ee035efd1d9d8bc5655719cf05fc32fee)
+- [Tests] fix `npm run find-unused` [`9398cbc`](https://github.com/ljharb/eslint-config/commit/9398cbce74dfabde778afeea73cd0608a9cd3697)
+
 ## [v21.4.0](https://github.com/ljharb/eslint-config/compare/v21.3.0...v21.4.0) - 2025-11-17
 
 ### Commits
