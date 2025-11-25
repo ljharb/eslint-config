@@ -1,0 +1,12 @@
+{
+	"extends": "@ljharb/tsconfig",
+
+	"compilerOptions": {
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+	},
+
+	"exclude": [
+		"test/fixtures",
+	],
+}

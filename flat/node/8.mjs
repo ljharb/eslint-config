@@ -1,7 +1,7 @@
 import baseConfig from './6.mjs';
 import config from '../../node/8.json' with { type: 'json' };
 
-export default [
+export default /** @type {import('./8.d.mts').default} */ ([
 	...baseConfig,
 	{
 		languageOptions: {
@@ -9,4 +9,4 @@ export default [
 		},
 		rules: config.rules,
 	},
-];
+]);

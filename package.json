@@ -65,6 +65,7 @@
 		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"prelint": "eclint check $(git ls-files | xargs find 2> /dev/null | grep -vE 'node_modules|\\.git')",
 		"lint": "eslint --ext=js,mjs . --ignore-pattern=test/fixtures",
+		"postlint": "attw -P && tsc",
 		"pretest": "npm run lint",
 		"test": "npm run --silent tests-only",
 		"posttest": "npx npm@\">=10.2\" audit --production",
@@ -82,6 +83,13 @@
 		"eslint-config"
 	],
 	"devDependencies": {
+		"@arethetypeswrong/cli": "^0.18.2",
+		"@ljharb/tsconfig": "^0.3.2",
+		"@types/eslint__eslintrc": "^2.1.2",
+		"@types/espree": "^10.1.0",
+		"@types/node": "^24.10.1",
+		"@types/semver": "^7.7.1",
+		"@types/tape": "^5.8.1",
 		"auto-changelog": "^2.5.0",
 		"eclint": "^2.8.1",
 		"eslint": "^8.8.0 || ^9.39.1",
@@ -90,7 +98,8 @@
 		"npmignore": "^0.3.2",
 		"safe-publish-latest": "^2.0.0",
 		"semver": "^6.3.1",
-		"tape": "^5.9.0"
+		"tape": "^5.9.0",
+		"typescript": "next"
 	},
 	"peerDependencies": {
 		"eslint": "^8.8.0 || ^9.39.1"
@@ -100,7 +109,12 @@
 	},
 	"publishConfig": {
 		"ignore": [
-			".github/workflows"
+			".attw.json",
+			".editorconfig",
+			".github/workflows",
+			"eslint.config.mjs",
+			"tsconfig.json",
+			"test"
 		]
 	},
 	"auto-changelog": {

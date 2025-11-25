@@ -34,7 +34,7 @@ const baseConfigs = compat.config({
 	extends: '../../node/0.4',
 });
 
-export default [
+export default /** @type {import('./0.4.d.mts').default} */ ([
 	...baseConfigs,
 	{ rules },
 	{
@@ -44,4 +44,4 @@ export default [
 			parser, // Use custom parser which handles import attributes for any ecmaVersion
 		},
 	},
-];
+]);

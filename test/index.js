@@ -34,7 +34,8 @@ test('eslint config tests', function (t) {
 				execSync(eslintCmd, { encoding: 'utf8', env: env });
 			} catch (e) {
 				threw = true;
-				strictModeError = (/strict mode/i).test(e.stdout || e.message);
+				var err = /** @type {{ stdout?: string; message: string }} */ (e);
+				strictModeError = (/strict mode/i).test(err.stdout || err.message);
 			}
 
 			st.ok(threw, 'eslint should throw an error');

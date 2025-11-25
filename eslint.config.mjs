@@ -2,7 +2,7 @@ import flat from './flat.mjs';
 
 import node from './flat/node/22.mjs';
 
-export default [
+export default /** @type {import('eslint').Linter.Config[]} */ ([
 	...flat,
 	...node.filter((config) => config.files), // Only include configs with file restrictions
 	{
@@ -14,4 +14,9 @@ export default [
 			'sort-keys': 'off',
 		},
 	},
-];
+	{
+		rules: {
+			'no-extra-parens': 'off',
+		},
+	},
+]);

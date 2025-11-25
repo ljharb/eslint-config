@@ -2,7 +2,7 @@ import baseConfig from './12.mjs';
 import config from '../../node/14.json' with { type: 'json' };
 import globals from 'globals';
 
-export default [
+export default /** @type {import('./14.d.mts').default} */ ([
 	...baseConfig,
 	{
 		languageOptions: {
@@ -13,4 +13,4 @@ export default [
 			},
 		},
 	},
-];
+]);

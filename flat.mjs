@@ -23,6 +23,7 @@ const baseConfigs = compat.config({
 		globals: {
 			...globals.es5,
 			...globals.node,
+			// @ts-expect-error TS is dumb and thinks you can only object spread objects
 			...languageOptions?.globals,
 		},
 	},
@@ -55,7 +56,7 @@ const rules = {
 	'preserve-caught-error': 'error',
 };
 
-export default [
+export default /** @type {import('./flat.d.mts').default} */ ([
 	...baseConfigs,
 	{
 		files: ['test/**'],
@@ -86,4 +87,4 @@ export default [
 		},
 	},
 	{ rules },
-];
+]);
