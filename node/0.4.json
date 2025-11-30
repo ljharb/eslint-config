@@ -19,6 +19,13 @@
 		"dot-notation": [2, { "allowKeywords": true }],
 		"no-console": 0,
 		"no-process-exit": 0,
+		"no-underscore-dangle": [2, {
+			"allow": ["__dirname", "__filename"],
+			"allowAfterThis": false,
+			"allowAfterSuper": false,
+			"allowAfterThisConstructor": false,
+			"enforceInMethodNames": true
+		}],
 		"quote-props": [2, "as-needed", { "keywords": false }]
 	}
 }
