@@ -14,29 +14,34 @@ const compat = new FlatCompat({
 });
 
 // Get base config without overrides
-const baseConfigs = compat.config({
+const rawBaseConfigs = compat.config({
 	extends: './eslint-config.json',
-}).map(({ languageOptions, ...c }) => ({
-	...c,
-	languageOptions: {
-		...languageOptions,
-		globals: {
-			...globals.es5,
-			...globals.node,
-			// @ts-expect-error TS is dumb and thinks you can only object spread objects
-			...languageOptions?.globals,
+});
+
+/** @type {(c: typeof rawBaseConfigs[number]) => c is { ignores: {} }} */
+function isIgnore(c) {
+	return c.ignores && Object.keys(c).length === 1;
+}
+
+const ignoreConfigs = rawBaseConfigs.filter(isIgnore);
+
+const baseConfigs = rawBaseConfigs
+	.filter((c) => !isIgnore(c))
+	.map(({ languageOptions, ...c }) => ({
+		...c,
+		languageOptions: {
+			...languageOptions,
+			globals: {
+				...globals.es5,
+				...globals.node,
+				// @ts-expect-error TS is dumb and thinks you can only object spread objects
+				...languageOptions?.globals,
+			},
 		},
-	},
-}));
+	}));
 
-// Get override configs
-const testConfigs = compat.config({
-	extends: './tests',
-});
-
-const esmConfigs = compat.config({
-	extends: './esm',
-});
+const testConfigs = compat.config({ extends: './tests' });
+const esmConfigs = compat.config({ extends: './esm' });
 
 const rules = {
 	'logical-assignment-operators': 'off', // TODO: set to "always" when node flat configs exist
@@ -57,6 +62,8 @@ const rules = {
 };
 
 export default /** @type {import('./flat.d.mts').default} */ ([
+	// Global ignores must be first and standalone to apply globally
+	...ignoreConfigs,
 	...baseConfigs,
 	{
 		files: ['test/**'],
