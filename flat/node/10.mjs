@@ -15,4 +15,13 @@ export default /** @type {import('./10.d.mts').default} */ ([
 		},
 		rules: config.rules,
 	},
+	{
+		rules: {
+			'no-unused-vars': ['error', {
+				args: 'after-used',
+				caughtErrors: 'all', // `catch {}` available as of node v10.3.0
+				vars: 'all',
+			}],
+		},
+	},
 ]);

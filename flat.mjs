@@ -57,6 +57,11 @@ const rules = {
 		enforceForJSX: true,
 		ignoreDirectives: true,
 	}],
+	'no-unused-vars': ['error', {
+		args: 'after-used',
+		caughtErrors: 'none',
+		vars: 'all',
+	}],
 	'no-useless-assignment': 'error',
 	'preserve-caught-error': 'error',
 };

@@ -42,7 +42,7 @@ module.exports = {
 							ecmaVersion: 2025
 						});
 						ast = espree.parse(code, options2025);
-					} catch (e2) { // eslint-disable-line no-unused-vars
+					} catch (e2) {
 						// The code has other syntax errors, throw original error
 						throw e;
 					}
