@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v22.0.2](https://github.com/ljharb/eslint-config/compare/v22.0.1...v22.0.2) - 2025-12-03
+
+### Commits
+
+- [Fix] do not check unused caughtErrors in flat config, except in node [`9c2132b`](https://github.com/ljharb/eslint-config/commit/9c2132b670d00ab53074db6ce4e31f4786561796)
+
 ## [v22.0.1](https://github.com/ljharb/eslint-config/compare/v22.0.0...v22.0.1) - 2025-12-03
 
 ### Commits
