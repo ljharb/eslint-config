@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v22.0.1](https://github.com/ljharb/eslint-config/compare/v22.0.0...v22.0.1) - 2025-12-03
+
+### Commits
+
+- [Fix] properly flat-compat the ignores [`652d0aa`](https://github.com/ljharb/eslint-config/commit/652d0aab5c9455690537c5fbc9304aa54f57ffb3)
+- [eslint] fix project linting [`892f2c1`](https://github.com/ljharb/eslint-config/commit/892f2c15c7573f8a257e9f54c939bae48cbce921)
+- [Fix] `node/*`: allow `__dirname` and `__filename` [`25fd602`](https://github.com/ljharb/eslint-config/commit/25fd6022df95bf866ba8f8359782d0f0b5694d5b)
+
 ## [v22.0.0](https://github.com/ljharb/eslint-config/compare/v21.4.0...v22.0.0) - 2025-11-24
 
 ### Commits
