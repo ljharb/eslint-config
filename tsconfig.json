@@ -8,5 +8,6 @@
 
 	"exclude": [
 		"test/fixtures",
+		"test/es3.js",
 	],
 }

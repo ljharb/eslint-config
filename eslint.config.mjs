@@ -6,7 +6,11 @@ export default /** @type {import('eslint').Linter.Config[]} */ ([
 	...flat,
 	...node.filter((config) => config.files), // Only include configs with file restrictions
 	{
-		files: ['./flat.mjs', './flat/node/**.*js'],
+		files: [
+			'./flat.mjs',
+			'./flat/node/**.*js',
+			'./parser.js',
+		],
 		rules: {
 			'array-bracket-newline': 'off',
 			'no-magic-numbers': 'off',
