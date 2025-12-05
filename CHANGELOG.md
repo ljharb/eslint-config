@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v22.1.0](https://github.com/ljharb/eslint-config/compare/v22.0.2...v22.1.0) - 2025-12-05
+
+### Commits
+
+- [New] add `flat/esm` and `flat/tests` entrypoints [`9294e24`](https://github.com/ljharb/eslint-config/commit/9294e24786fba88cd4df37348a3d27df2a98a93d)
+- [Deps] update `@eslint/eslintrc` [`30f5d5a`](https://github.com/ljharb/eslint-config/commit/30f5d5a157e3310afadeab7bc2f2ababf014873e)
+- [Dev Deps] fix eslint version range [`8d148c1`](https://github.com/ljharb/eslint-config/commit/8d148c1c24a2a727bef88f0bb9b011564427ff86)
+
 ## [v22.0.2](https://github.com/ljharb/eslint-config/compare/v22.0.1...v22.0.2) - 2025-12-03
 
 ### Commits
