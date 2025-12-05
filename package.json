@@ -43,6 +43,8 @@
 		"./tests": "./tests.json",
 		"./tests.json": "./tests.json",
 		"./flat": "./flat.mjs",
+		"./flat/esm": "./flat/esm.mjs",
+		"./flat/tests": "./flat/tests.mjs",
 		"./flat/node/0.4": "./flat/node/0.4.mjs",
 		"./flat/node/4": "./flat/node/4.mjs",
 		"./flat/node/6": "./flat/node/6.mjs",
