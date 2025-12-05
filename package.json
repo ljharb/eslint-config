@@ -82,10 +82,12 @@
 		"eslint",
 		"eslint-config"
 	],
+	"dependencies": {
+		"@eslint/eslintrc": "^3.3.3"
+	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.18.2",
 		"@ljharb/tsconfig": "^0.3.2",
-		"@types/eslint__eslintrc": "^2.1.2",
 		"@types/espree": "^10.1.0",
 		"@types/node": "^24.10.1",
 		"@types/semver": "^7.7.1",
@@ -126,8 +128,5 @@
 		"backfillLimit": false,
 		"hideCredit": true,
 		"startingVersion": "v19.0.0"
-	},
-	"dependencies": {
-		"@eslint/eslintrc": "^3.3.1"
 	}
 }
