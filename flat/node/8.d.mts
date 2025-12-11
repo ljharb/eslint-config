@@ -1,5 +1,12 @@
 import type { Linter } from 'eslint';
+import type { ConfigObject } from '@eslint/core';
 
-declare const flatConfig: Linter.Config[];
+export type { Linter };
+export type { ConfigObject };
+
+export type Config = ConfigObject;
+export type FlatConfig = Config[];
+
+declare const flatConfig: FlatConfig;
 
 export default flatConfig;

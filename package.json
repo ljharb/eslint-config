@@ -89,6 +89,7 @@
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.18.2",
+		"@eslint/core": "^1.0.0",
 		"@ljharb/tsconfig": "^0.3.2",
 		"@types/espree": "^10.1.0",
 		"@types/node": "^24.10.1",
@@ -107,7 +108,13 @@
 		"typescript": "next"
 	},
 	"peerDependencies": {
+		"@eslint/core": "^0.12 || ^1",
 		"eslint": "^8.8.0 || ^9.39.1"
+	},
+	"peerDependenciesMeta": {
+		"@eslint/core": {
+			"optional": true
+		}
 	},
 	"engines": {
 		"node": "^22.21 || ^24.11 || >=25.2.1"
