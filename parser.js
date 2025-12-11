@@ -1,8 +1,12 @@
 'use strict';
 
 // Custom parser that enforces both ES3 syntax AND strict mode violations by parsing twice: once with ES3 (via espree), once with ES5 (via acorn)
-var acorn = require('acorn');
-var espree = require('espree');
+
+// resolve espree relative to @eslint/eslintrc (which depends on it) to support non-hoisting package managers like vlt
+var espreePath = require.resolve('espree', { paths: [require.resolve('@eslint/eslintrc')] });
+var espree = require(espreePath);
+// resolve acorn relative to espree (which depends on it)
+var acorn = require(require.resolve('acorn', { paths: [espreePath] }));
 
 /** @type {import('./parser.d.ts')} */
 module.exports = {
