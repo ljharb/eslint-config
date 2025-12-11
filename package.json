@@ -92,7 +92,7 @@
 		"@eslint/core": "^1.0.0",
 		"@ljharb/tsconfig": "^0.3.2",
 		"@types/espree": "^10.1.0",
-		"@types/node": "^24.10.1",
+		"@types/node": "^24.10.3",
 		"@types/semver": "^7.7.1",
 		"@types/tape": "^5.8.1",
 		"auto-changelog": "^2.5.0",
