@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v22.1.2](https://github.com/ljharb/eslint-config/compare/v22.1.1...v22.1.2) - 2025-12-11
+
+### Commits
+
+- [Fix] remove `@eslint/core` [`7958d46`](https://github.com/ljharb/eslint-config/commit/7958d46889135948b1a582733597eb68f7393ca7)
+- [meta] help PMs that fail to hoist find acorn/espree [`584e045`](https://github.com/ljharb/eslint-config/commit/584e04545dad60abc0947ad8391f2696d72b6361)
+
 ## [v22.1.1](https://github.com/ljharb/eslint-config/compare/v22.1.0...v22.1.1) - 2025-12-11
 
 ### Commits
