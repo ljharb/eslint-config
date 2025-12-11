@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v22.1.1](https://github.com/ljharb/eslint-config/compare/v22.1.0...v22.1.1) - 2025-12-11
+
+### Commits
+
+- [types] fix TS2742 error in downstream types [`53dcf93`](https://github.com/ljharb/eslint-config/commit/53dcf93d842c7dbbcae4f11793daadd26e8346cc)
+- [Dev Deps] update `@types/node` [`f61883b`](https://github.com/ljharb/eslint-config/commit/f61883b68fe6764034a102ce60c645296a4122e4)
+
 ## [v22.1.0](https://github.com/ljharb/eslint-config/compare/v22.0.2...v22.1.0) - 2025-12-05
 
 ### Commits
