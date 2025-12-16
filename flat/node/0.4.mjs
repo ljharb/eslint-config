@@ -1,42 +1,23 @@
-import { FlatCompat } from '@eslint/eslintrc';
+import globals from 'globals';
 
-import path from 'path';
-import { fileURLToPath } from 'url';
+import baseConfig from '../../flat.mjs';
+import nodeConfig from '../../node/0.4.json' with { type: 'json' };
 import parser from '../../parser.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const compat = new FlatCompat({
-	baseDirectory: __dirname,
-	resolvePluginsRelativeTo: __dirname,
-});
-
-const rules = {
-	'logical-assignment-operators': 'off',
-	'no-constant-binary-expression': 'error',
-	'no-empty-static-block': 'error',
-	'no-new-native-nonconstructor': 'error',
-	'no-object-constructor': 'error',
-	'no-unassigned-vars': 'error',
-	'no-unused-expressions': ['error', {
-		allowShortCircuit: false,
-		allowTernary: false,
-		allowTaggedTemplates: true,
-		enforceForJSX: true,
-		ignoreDirectives: true,
-	}],
-	'no-useless-assignment': 'error',
-	'preserve-caught-error': 'error',
-};
-
-const baseConfigs = compat.config({
-	extends: '../../node/0.4',
-});
-
 export default /** @type {import('./0.4.d.mts').default} */ ([
-	...baseConfigs,
-	{ rules },
+	...baseConfig,
+	{
+		languageOptions: {
+			ecmaVersion: nodeConfig.parserOptions.ecmaVersion,
+			parserOptions: {
+				allowReserved: nodeConfig.parserOptions.allowReserved,
+			},
+			globals: {
+				...globals.node,
+			},
+		},
+		rules: nodeConfig.rules,
+	},
 	{
 		files: ['**/*.mjs'],
 		languageOptions: {
