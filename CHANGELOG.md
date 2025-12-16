@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v22.1.3](https://github.com/ljharb/eslint-config/compare/v22.1.2...v22.1.3) - 2025-12-16
+
+### Commits
+
+- [Fix] `flat/node`: add missing overrides [`0fcaeb0`](https://github.com/ljharb/eslint-config/commit/0fcaeb0c1ebcae1002e63aff14371a37198b7898)
+
 ## [v22.1.2](https://github.com/ljharb/eslint-config/compare/v22.1.1...v22.1.2) - 2025-12-11
 
 ### Commits
