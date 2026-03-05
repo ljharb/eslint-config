@@ -85,7 +85,7 @@
 		"eslint-config"
 	],
 	"dependencies": {
-		"@eslint/eslintrc": "^3.3.3"
+		"@eslint/eslintrc": "^3.3.4"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.18.2",
