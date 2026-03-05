@@ -1,0 +1,14 @@
+name: 'Tests: eslint 10'
+
+on: [pull_request, push]
+
+jobs:
+  eslint-10:
+    name: 'eslint 10 (latest)'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ljharb/actions/node/install@main
+      - run: npm install --no-save eslint@10
+      - run: npm ls eslint || true
+      - run: npm run tests-only
