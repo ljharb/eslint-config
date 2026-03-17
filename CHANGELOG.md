@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v22.2.1](https://github.com/ljharb/eslint-config/compare/v22.2.0...v22.2.1) - 2026-03-16
+
+### Commits
+
+- [Fix] `parser`: forward eslint parser options to secondary acorn parse [`a9d94d4`](https://github.com/ljharb/eslint-config/commit/a9d94d496489979a3f8769f38026d5f1113746e5)
+
 ## [v22.2.0](https://github.com/ljharb/eslint-config/compare/v22.1.3...v22.2.0) - 2026-03-05
 
 ### Commits
