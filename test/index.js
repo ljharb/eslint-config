@@ -1,5 +1,6 @@
 'use strict';
 
+var fs = require('fs');
 var path = require('path');
 var execSync = require('child_process').execSync;
 
@@ -8,6 +9,7 @@ var eslintPkg = require('eslint/package.json');
 var semver = require('semver');
 
 var config = require('..');
+var parser = /** @type {{ parseForESLint: (code: string, options: Record<string, unknown>) => unknown }} */ (require('../parser'));
 
 test('eslint config tests', function (t) {
 	var eslintVersion = parseInt(eslintPkg.version.split('.')[0], 10);
@@ -44,6 +46,32 @@ test('eslint config tests', function (t) {
 			st.end();
 		}
 	);
+
+	t.test('parser: globalReturn', function (st) {
+		var code = fs.readFileSync(path.join(__dirname, 'fixtures', 'global-return.js'), 'utf8');
+		var baseOptions = {
+			ecmaVersion: 3,
+			sourceType: 'script',
+			allowReserved: true
+		};
+
+		st['throws'](
+			function () { parser.parseForESLint(code, baseOptions); },
+			/return/,
+			'top-level return fails without globalReturn'
+		);
+
+		st.doesNotThrow(
+			function () {
+				parser.parseForESLint(code, Object.assign({}, baseOptions, {
+					ecmaFeatures: { globalReturn: true }
+				}));
+			},
+			'top-level return succeeds with globalReturn: true'
+		);
+
+		st.end();
+	});
 
 	t.test('config should be valid', function (st) {
 		st.ok(config, 'config exports an object');

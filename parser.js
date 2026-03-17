@@ -62,10 +62,14 @@ module.exports = {
 
 		// Then parse with acorn ES5 to catch strict mode violations (skip for modules, which are always strict)
 		if (typeof ecmaVersion === 'number' && ecmaVersion < 5 && options.sourceType !== 'module') {
-			var es5Options = /** @type {const} */ ({
+			var ecmaFeatures = options.ecmaFeatures || {};
+			// espree maps ecmaFeatures to acorn options under different names; strip ecmaFeatures since acorn doesn't understand it
+			var es5Options = Object.assign({}, options, {
 				ecmaVersion: 5,
 				locations: true,
-				sourceType: 'script'
+				sourceType: 'script',
+				ecmaFeatures: null,
+				allowReturnOutsideFunction: !!ecmaFeatures.globalReturn
 			});
 			acorn.parse(code, es5Options);
 		}
