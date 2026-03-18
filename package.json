@@ -99,7 +99,7 @@
 		"eclint": "^2.8.1",
 		"eslint": "^8.8.0 || ^9.39.1 || ^10.0.2",
 		"eslint-find-rules": "^4.2.0 || ^5.0.0",
-		"globals": "^16.5.0",
+		"globals": "^13.19.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0",
 		"in-publish": "^2.0.1",
 		"npmignore": "^0.3.5",
 		"safe-publish-latest": "^2.0.0",
@@ -108,7 +108,13 @@
 		"typescript": "next"
 	},
 	"peerDependencies": {
-		"eslint": "^8.8.0 || ^9.39.1 || ^10.0.2"
+		"eslint": "^8.8.0 || ^9.39.1 || ^10.0.2",
+		"globals": "^13.19.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0"
+	},
+	"peerDependenciesMeta": {
+		"globals": {
+			"optional": true
+		}
 	},
 	"engines": {
 		"node": "^22.21 || ^24.11 || >=25.2.1"
