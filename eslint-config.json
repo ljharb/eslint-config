@@ -531,7 +531,7 @@
 		"unicode-bom": [2, "never"],
 		"use-isnan": [2, { "enforceForSwitchCase": true }],
 		"valid-jsdoc": [0],
-		"valid-typeof": [2],
+		"valid-typeof": [2, { "requireStringLiterals": true }],
 		"vars-on-top": [0],
 		"wrap-iife": [2, "outside", { "functionPrototypeMethods": true }],
 		"wrap-regex": [2],
