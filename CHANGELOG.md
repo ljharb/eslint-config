@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v22.2.3](https://github.com/ljharb/eslint-config/compare/v22.2.2...v22.2.3) - 2026-04-24
+
+### Commits
+
+- [Dev Deps] update `@eslint/core`, `@types/node` [`200d4f1`](https://github.com/ljharb/eslint-config/commit/200d4f150fc0615493372ea5abe0c0a23a5b40a7)
+- [Fix] require string literals with `typeof` [`75b8d72`](https://github.com/ljharb/eslint-config/commit/75b8d72ff0e44eb74773939a609a279ac027752e)
+
 ## [v22.2.2](https://github.com/ljharb/eslint-config/compare/v22.2.1...v22.2.2) - 2026-03-18
 
 ### Commits
