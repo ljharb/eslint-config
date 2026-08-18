@@ -11,6 +11,7 @@
 			"exports": "always-multiline",
 			"functions": "always-multiline"
 		}],
-		"prefer-exponentiation-operator": 2
+		"prefer-exponentiation-operator": 2,
+		"prefer-object-spread": 2
 	}
 }
