@@ -5,6 +5,7 @@
 	},
 	"rules": {
 		"prefer-destructuring": 2,
+		"prefer-rest-params": 2,
 		"prefer-spread": 2
 	}
 }
