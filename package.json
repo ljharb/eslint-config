@@ -88,14 +88,13 @@
 		"@eslint/eslintrc": "^3.3.5"
 	},
 	"devDependencies": {
-		"@arethetypeswrong/cli": "^0.18.2",
+		"@arethetypeswrong/cli": "^0.18.5",
 		"@eslint/core": "^1.2.1",
 		"@ljharb/tsconfig": "^0.3.2",
 		"@types/espree": "^10.1.0",
-		"@types/node": "^24.12.2",
-		"@types/semver": "^7.7.1",
-		"@types/tape": "^5.8.1",
-		"auto-changelog": "^2.5.0",
+		"@types/node": "^24.13.3",
+		"@types/semver": "^7.8.0",
+		"auto-changelog": "^2.6.0",
 		"eclint": "^2.8.1",
 		"eslint": "^8.8.0 || ^9.39.1 || ^10.0.2",
 		"eslint-find-rules": "^4.2.0 || ^5.0.0",
@@ -104,7 +103,7 @@
 		"npmignore": "^0.3.5",
 		"safe-publish-latest": "^2.0.0",
 		"semver": "^6.3.1",
-		"tape": "^5.9.0",
+		"tape": "^5.10.2",
 		"typescript": "next"
 	},
 	"peerDependencies": {
