@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v22.2.4](https://github.com/ljharb/eslint-config/compare/v22.2.3...v22.2.4) - 2026-08-19
+
+### Commits
+
+- [Dev Deps] update `@arethetypeswrong/cli`, `@types/node`, `@types/semver`, `auto-changelog`, `tape` [`ac5bbd7`](https://github.com/ljharb/eslint-config/commit/ac5bbd7c635f2ca9ec2b5b39fabd7780cef8c2ed)
+- [Fix] `node`: move `prefer-object-spread` from `4` to `8`, since object spread requires node 8.3 [`08c2def`](https://github.com/ljharb/eslint-config/commit/08c2def6463340b44ec2bfce8cc3951a450be0d6)
+- [meta] run `dt-clean --setup` [`841f695`](https://github.com/ljharb/eslint-config/commit/841f695acaef5534dfae763080da31d9f1ecbd41)
+- [types] fix an error TS v6 ignores but v7 fails on [`a3113a8`](https://github.com/ljharb/eslint-config/commit/a3113a89de8c8d29449c5874e7170b7a57370584)
+- [Fix] `node`: move `prefer-rest-params` from `4` to `6`, since rest params require node 6 [`263a53a`](https://github.com/ljharb/eslint-config/commit/263a53ad07a63ed8fe6ae15af3ae7ab870f0fd56)
+- [Deps] update `@eslint/eslintrc` [`b472f57`](https://github.com/ljharb/eslint-config/commit/b472f57bf4deb0361c2b7e957bbe961ed9fec5de)
+
 ## [v22.2.3](https://github.com/ljharb/eslint-config/compare/v22.2.2...v22.2.3) - 2026-04-24
 
 ### Commits
