@@ -8,7 +8,7 @@ var espree = require(espreePath);
 // resolve acorn relative to espree (which depends on it)
 var acorn = require(require.resolve('acorn', { paths: [espreePath] }));
 
-/** @type {import('./parser.d.ts')} */
+/** @type {typeof import('./parser.d.ts')} */
 module.exports = {
 	meta: {
 		name: '@ljharb/eslint-config/parser'
