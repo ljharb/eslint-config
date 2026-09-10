@@ -2,6 +2,8 @@ name: 'Tests: eslint 8'
 
 on: [pull_request, push]
 
+cache-mode: none
+
 jobs:
   eslint-8:
     name: 'eslint 8 (latest)'
