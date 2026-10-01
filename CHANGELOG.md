@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v22.2.5](https://github.com/ljharb/eslint-config/compare/v22.2.4...v22.2.5) - 2026-10-01
+
+### Commits
+
+- [Fix] `flat/node`: lint `.mjs` files as ESM in every preset [`2811270`](https://github.com/ljharb/eslint-config/commit/2811270edd6282093248348901fd2faefeac985e)
+- [actions] set least-privilege `cache-mode` [`ab7ae35`](https://github.com/ljharb/eslint-config/commit/ab7ae3578d67b99fdd36b6e3e528d1382ee4e6b9)
+- [Deps] update `@eslint/eslintrc` [`094c1f0`](https://github.com/ljharb/eslint-config/commit/094c1f0ff4882a23a7b624040120ce0807ed907c)
+- [Dev Deps] update `auto-changelog` [`28876ea`](https://github.com/ljharb/eslint-config/commit/28876ea6c494ebda2a6a5e36e3ab949139b2807d)
+
 ## [v22.2.4](https://github.com/ljharb/eslint-config/compare/v22.2.3...v22.2.4) - 2026-08-19
 
 ### Commits
