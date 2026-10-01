@@ -1,5 +1,6 @@
 import baseConfig from './0.4.mjs';
 import config from '../../node/4.json' with { type: 'json' };
+import esm from './esm.mjs';
 import globals from 'globals';
 
 export default /** @type {import('./4.d.mts').default} */ ([
@@ -14,4 +15,5 @@ export default /** @type {import('./4.d.mts').default} */ ([
 		},
 		rules: config.rules,
 	},
+	esm(config.parserOptions.ecmaVersion),
 ]);
